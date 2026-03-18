@@ -4,6 +4,10 @@
 
 </div>
 
+<p align="center">
+  <img src="https://render.gitanimals.org/farms/FAITRUEE?loading" />
+</p>
+
 <br/>
 
 <div align="center">
