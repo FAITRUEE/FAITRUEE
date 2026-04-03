@@ -60,7 +60,7 @@
 - 사고 이력 및 위험도 저장·조회 API 개발
 
 [![Demo](https://img.shields.io/badge/DEMO-live-4CAF50?style=flat-square&logo=vercel&logoColor=white)](https://audio-fall-care-web.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/AudioFallCare/AudioFallcare_docs)
+[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/orgs/AudioFallCare/repositories)
 
 </details>
 
@@ -96,7 +96,7 @@
 - AWS EC2 + RDS + ECR + GitHub Actions CI/CD 파이프라인 구축
 - 이미지 좌표 기반 피드백 시스템 설계 (비율 좌표, 해상도 무관)
 
-[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/BlaybusHackathon/BlaybusBE)
+[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/BlaybusHackathon)
 
 </details>
 
@@ -129,7 +129,7 @@
 - 스터디룸 — 공부/휴식 상태 표시, 타이머(자동 전환·알림), 상태메시지
 - 체크리스트 CRUD·순서 변경, 디데이 설정, 스터디 기록·달성률 조회
 
-[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/Let-s-Study-Now/Let-s-Study-Now_web)
+[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/orgs/Let-s-Study-Now/repositories)
 
 </details>
 
