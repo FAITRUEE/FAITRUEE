@@ -133,6 +133,39 @@
 
 </details>
 
+<details>
+<summary><b>📖 &nbsp;온점 (Onjeom)</b> &nbsp;·&nbsp; Backend · AI Model &nbsp;·&nbsp; AI 기반 문해력 향상 학습 웹</summary>
+
+<br/>
+
+> 국어 교과 지문 기반 문제풀이 AI 튜터 — 어휘력·독해력·문해력을 분석해 맞춤형 학습 경험 제공
+
+- Qwen2.5-3B-Instruct + QLoRA fine-tuning으로 국어 교과 지문형 QA 모델 학습
+- RAG(ChromaDB) 기반 AI 튜터 — 지문 내 용어·문장 질문 답변 및 쉬운 설명 API 구현
+- 키워드 매칭 + LLM 2단계 자동 채점 API 설계 및 구현
+- 진단 결과 기반 맞춤형 커리큘럼 자동 생성 API 구현
+- FastAPI AI 서비스 서버 구축 및 AWS EC2 배포
+
+[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/OnjeomAI)
+
+</details>
+
+<details>
+<summary><b>🧭 &nbsp;진로온 (JinroOn)</b> &nbsp;·&nbsp; Frontend &nbsp;·&nbsp; AI 기반 맞춤형 전공 설계 플랫폼 (개발 중)</summary>
+
+<br/>
+
+> 수천 개의 학과 데이터와 실시간 취업 트렌드를 AI로 분석하여 최적의 전공 경로를 제안하는 플랫폼
+
+- React 19 + TypeScript + Vite + Tailwind CSS 기반 프론트엔드 구현
+- 페이지별 컴포넌트 분리 구조 설계 (`pages/페이지명/components/` 패턴)
+- Axios 인스턴스 기반 API 레이어 분리, 커스텀 훅으로 상태 관리
+- Vercel 배포
+
+[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/JinroOn)
+
+</details>
+
 <br/>
 
 ---
