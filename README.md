@@ -134,7 +134,7 @@
 </details>
 
 <details>
-<summary><b>📖 &nbsp;온점 (Onjeom)</b> &nbsp;·&nbsp; Backend · AI Model &nbsp;·&nbsp; AI 기반 문해력 향상 학습 웹</summary>
+<summary><b>📖 &nbsp;온점 (Onjeom)</b> &nbsp;·&nbsp; Backend · AI Model &nbsp;·&nbsp; AI 기반 문해력 향상 학습 웹 (개발 중)</summary>
 
 <br/>
 
