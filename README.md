@@ -158,7 +158,7 @@
 
 > 국어 교과 지문 기반 문제풀이 AI 튜터 — 어휘력·독해력·문해력을 분석해 맞춤형 학습 경험 제공
 
-- 팀장 · AI 서버(FastAPI) 총괄 — Qwen2.5-3B-Instruct + QLoRA fine-tuning으로 국어 교과 지문형 QA 모델 학습
+- AI 서버(FastAPI) 총괄 — Qwen2.5-3B-Instruct + QLoRA fine-tuning으로 국어 교과 지문형 QA 모델 학습
 - RAG(ChromaDB) 기반 AI 튜터 및 IRT(theta) 기반 진단·28일 맞춤 커리큘럼 자동 생성 API 구현
 - 키워드(kiwipiepy 형태소 분석) + LLM 하이브리드 2단계 채점 — 독해 유형(사실적·추론적·비판적·창의적)별 비중 차등 적용
 - AI 문제 자동 생성 API 및 핵심 키워드 자동 추출 파이프라인 구현, 객관식 문항 감지·차단 필터링
