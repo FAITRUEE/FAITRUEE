@@ -47,6 +47,23 @@
 ## 🛠 &nbsp;Projects
 
 <details>
+<summary><b>🎯 &nbsp;NowWhat</b> &nbsp;·&nbsp; Fullstack &nbsp;·&nbsp; 개인 프로젝트 &nbsp;·&nbsp; 할 일 우선순위 자동 추천 서비스</summary>
+
+<br/>
+
+> 사용자가 직접 우선순위를 정하지 않아도, 긴급도·중요도·소요시간을 가중합해 할 일을 자동으로 정렬해주는 투두 서비스
+
+- Spring Boot 4.1(Java 21) + React 19 · TypeScript · Vite · Tailwind CSS 풀스택 설계 및 구현
+- 마감 임박도(지수 함수 감쇠)·중요도·소요시간 가중합 스코어링 엔진 구현, 사용자별 가중치 조정 시 미완료 과업 전체 재계산
+- 로컬 Ollama LLM으로 상위 동점 후보 재정렬, 실패 시 규칙 기반 순위로 자동 폴백 및 실패 로깅
+- 팀 협업 확장 — LLM 기반 업무 자동 그룹핑("역할 추천 분배"), 담당자 재배정, `@dnd-kit` 기반 실시간 공유 칸반보드
+- JWT 인증/인가, CORS 설정, MockMvc 통합 테스트 + 단위 테스트로 구성된 자동화 테스트 스위트(50개) 구축
+
+[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/FAITRUEE/NowWhat_was)
+
+</details>
+
+<details>
 <summary><b>🛡️ &nbsp;낙상 지킴이 (AudioFallCare)</b> &nbsp;·&nbsp; Backend · AI Model &nbsp;·&nbsp; 범일정보 현장실습</summary>
 
 <br/>
