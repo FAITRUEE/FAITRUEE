@@ -166,6 +166,23 @@
 
 </details>
 
+<details>
+<summary><b>🔔 &nbsp;공지캐치 (Notice-Catch)</b> &nbsp;·&nbsp; Backend &nbsp;·&nbsp; 대학 공지사항 맞춤 피드 · 스마트 알림 서비스 (개발 중)</summary>
+
+<br/>
+
+> 대학 공지사항을 모아 맞춤형 피드와 스마트 알림을 제공하는 안드로이드 앱의 Spring Boot 백엔드
+
+- 마이페이지 프로필·알림 설정·관심 키워드 CRUD API 설계 및 구현
+- 스펙 로그(자격증·어학·수상 등) CRUD API 구현
+- 운영 공지사항·FAQ 조회 API 구현
+- Firebase Admin SDK 연동 및 FCM 푸시 발송 파이프라인 구현 — 신규 공지 키워드 매칭 알림(5분 주기), 스크랩 공지 마감임박 D-3 알림(매일 09시) 스케줄러 개발
+- 프로젝트 패키지 구조 리팩토링, 백엔드 개발 컨벤션 문서 작성
+
+[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/notice-catch/NoticeCatchBE)
+
+</details>
+
 <br/>
 
 ---
@@ -181,6 +198,7 @@
 ![MySQL](https://img.shields.io/badge/MySQL-0d1117?style=flat-square&logo=mysql&logoColor=4479A1)
 ![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=2496ED)
 ![AWS](https://img.shields.io/badge/AWS-0d1117?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
+![Firebase](https://img.shields.io/badge/Firebase-0d1117?style=flat-square&logo=firebase&logoColor=FFCA28)
 
 <br/>
 
