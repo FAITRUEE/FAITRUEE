@@ -152,7 +152,7 @@
 </details>
 
 <details>
-<summary><b>📖 &nbsp;온점 (Onjeom)</b> &nbsp;·&nbsp; 팀장 · AI Model · Backend &nbsp;·&nbsp; AI 기반 문해력 향상 학습 앱</summary>
+<summary><b>📖 &nbsp;온점 (Onjeom)</b> &nbsp;·&nbsp; AI Model · Backend &nbsp;·&nbsp; AI 기반 문해력 향상 학습 앱</summary>
 
 <br/>
 
