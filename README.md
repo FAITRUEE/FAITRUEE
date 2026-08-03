@@ -59,7 +59,8 @@
 - 팀 협업 확장 — LLM 기반 업무 자동 그룹핑("역할 추천 분배"), 담당자 재배정, `@dnd-kit` 기반 실시간 공유 칸반보드
 - JWT 인증/인가, CORS 설정, MockMvc 통합 테스트 + 단위 테스트로 구성된 자동화 테스트 스위트(50개) 구축
 
-[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/FAITRUEE/NowWhat_was)
+[![Frontend](https://img.shields.io/badge/GitHub-frontend-30363d?style=flat-square&logo=github)](https://github.com/FAITRUEE/NowWhat_web)
+[![Backend](https://img.shields.io/badge/GitHub-backend-30363d?style=flat-square&logo=github)](https://github.com/FAITRUEE/NowWhat_was)
 
 </details>
 
