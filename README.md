@@ -151,17 +151,19 @@
 </details>
 
 <details>
-<summary><b>🧭 &nbsp;진로온 (JinroOn)</b> &nbsp;·&nbsp; Frontend &nbsp;·&nbsp; AI 기반 맞춤형 전공 설계 플랫폼 (개발 중)</summary>
+<summary><b>🧭 &nbsp;진로온 (JinroOn)</b> &nbsp;·&nbsp; Frontend Lead · Backend &nbsp;·&nbsp; 종합설계(캡스톤) &nbsp;·&nbsp; AI 기반 맞춤형 전공 설계 플랫폼</summary>
 
 <br/>
 
 > 수천 개의 학과 데이터와 실시간 취업 트렌드를 AI로 분석하여 최적의 전공 경로를 제안하는 플랫폼
 
-- React 19 + TypeScript + Vite + Tailwind CSS 기반 프론트엔드 구현
-- 페이지별 컴포넌트 분리 구조 설계 (`pages/페이지명/components/` 패턴)
-- Axios 인스턴스 기반 API 레이어 분리, 커스텀 훅으로 상태 관리
-- Vercel 배포
+- React 19 + TypeScript + Vite + Zustand 기반 프론트엔드 전담 — 인증, 전공진단, 역량평가, AI 상담, 결과 대시보드, 마이페이지, 관리자 등 10개 도메인 화면 구현
+- 백엔드 API 명세 직접 작성 및 팀 기술 스택 조율
+- 진단 세션 삭제 API, 진단 결과 공유 링크 접근 권한, 공유 리포트 작성자 닉네임 노출 등 백엔드 기능 일부 직접 구현
+- 페이지별 컴포넌트 분리 구조 설계 (`pages/페이지명/components/` 패턴), Axios 인스턴스 기반 API 레이어 분리
+- Vercel 프로덕션/스테이징 배포 파이프라인 구성
 
+[![Demo](https://img.shields.io/badge/DEMO-live-4CAF50?style=flat-square&logo=vercel&logoColor=white)](https://jinro-on.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/JinroOn)
 
 </details>
