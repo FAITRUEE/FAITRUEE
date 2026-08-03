@@ -152,19 +152,22 @@
 </details>
 
 <details>
-<summary><b>📖 &nbsp;온점 (Onjeom)</b> &nbsp;·&nbsp; Backend · AI Model &nbsp;·&nbsp; AI 기반 문해력 향상 학습 웹 (개발 중)</summary>
+<summary><b>📖 &nbsp;온점 (Onjeom)</b> &nbsp;·&nbsp; 팀장 · AI Model · Backend &nbsp;·&nbsp; AI 기반 문해력 향상 학습 앱</summary>
 
 <br/>
 
 > 국어 교과 지문 기반 문제풀이 AI 튜터 — 어휘력·독해력·문해력을 분석해 맞춤형 학습 경험 제공
 
-- Qwen2.5-3B-Instruct + QLoRA fine-tuning으로 국어 교과 지문형 QA 모델 학습
-- RAG(ChromaDB) 기반 AI 튜터 — 지문 내 용어·문장 질문 답변 및 쉬운 설명 API 구현
-- 키워드 매칭 + LLM 2단계 자동 채점 API 설계 및 구현
-- 진단 결과 기반 맞춤형 커리큘럼 자동 생성 API 구현
-- FastAPI AI 서비스 서버 구축 및 AWS EC2 배포
+- 팀장 · AI 서버(FastAPI) 총괄 — Qwen2.5-3B-Instruct + QLoRA fine-tuning으로 국어 교과 지문형 QA 모델 학습
+- RAG(ChromaDB) 기반 AI 튜터 및 IRT(theta) 기반 진단·28일 맞춤 커리큘럼 자동 생성 API 구현
+- 키워드(kiwipiepy 형태소 분석) + LLM 하이브리드 2단계 채점 — 독해 유형(사실적·추론적·비판적·창의적)별 비중 차등 적용
+- AI 문제 자동 생성 API 및 핵심 키워드 자동 추출 파이프라인 구현, 객관식 문항 감지·차단 필터링
+- 백엔드 AI 서버 연동(진단·채점·커리큘럼)과 문제 삭제 cascade 처리 등 백엔드 기여, 프론트엔드 버그 수정 일부 병행 — 60건 이상의 PR 기여
 
-[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/OnjeomAI)
+[![Demo](https://img.shields.io/badge/DEMO-live-4CAF50?style=flat-square&logo=vercel&logoColor=white)](https://onjeom.vercel.app)
+[![AI](https://img.shields.io/badge/GitHub-AI-30363d?style=flat-square&logo=github)](https://github.com/OnjeomAI/OnjeomAI)
+[![Backend](https://img.shields.io/badge/GitHub-backend-30363d?style=flat-square&logo=github)](https://github.com/OnjeomAI/OnjeomBE)
+[![Frontend](https://img.shields.io/badge/GitHub-frontend-30363d?style=flat-square&logo=github)](https://github.com/OnjeomAI/OnjeomFE)
 
 </details>
 
