@@ -79,38 +79,18 @@
 ## 🛠 &nbsp;Projects
 
 <details>
-<summary><b>🎯 &nbsp;NowWhat</b> &nbsp;·&nbsp; Fullstack &nbsp;·&nbsp; 개인 프로젝트 &nbsp;·&nbsp; 할 일 우선순위 자동 추천 서비스</summary>
+<summary><b>📚 &nbsp;Let's Study Now</b> &nbsp;·&nbsp; Frontend &nbsp;·&nbsp; 실시간 스터디 그룹 매칭</summary>
 
 <br/>
 
-> 사용자가 직접 우선순위를 정하지 않아도, 긴급도·중요도·소요시간을 가중합해 할 일을 자동으로 정렬해주는 투두 서비스
+> 즉석으로 스터디 그룹을 매칭해주는 웹 서비스
 
-- Spring Boot 4.1(Java 21) + React 19 · TypeScript · Vite · Tailwind CSS 풀스택 설계 및 구현
-- 마감 임박도(지수 함수 감쇠)·중요도·소요시간 가중합 스코어링 엔진 구현, 사용자별 가중치 조정 시 미완료 과업 전체 재계산
-- 로컬 Ollama LLM으로 상위 동점 후보 재정렬, 실패 시 규칙 기반 순위로 자동 폴백 및 실패 로깅
-- 팀 협업 확장 — LLM 기반 업무 자동 그룹핑("역할 추천 분배"), 담당자 재배정, `@dnd-kit` 기반 실시간 공유 칸반보드
-- JWT 인증/인가, CORS 설정, MockMvc 통합 테스트 + 단위 테스트로 구성된 자동화 테스트 스위트(50개) 구축
+- 회원가입 / 로그인 / 프로필 관리 UI 개발
+- 오픈 스터디·그룹 스터디·URL 공유 매칭 흐름 전체 구현
+- 스터디룸 — 공부/휴식 상태 표시, 타이머(자동 전환·알림), 상태메시지
+- 체크리스트 CRUD·순서 변경, 디데이 설정, 스터디 기록·달성률 조회
 
-[![Frontend](https://img.shields.io/badge/GitHub-frontend-30363d?style=flat-square&logo=github)](https://github.com/FAITRUEE/NowWhat_web)
-[![Backend](https://img.shields.io/badge/GitHub-backend-30363d?style=flat-square&logo=github)](https://github.com/FAITRUEE/NowWhat_was)
-
-</details>
-
-<details>
-<summary><b>🛡️ &nbsp;낙상 지킴이 (AudioFallCare)</b> &nbsp;·&nbsp; Backend · AI Model &nbsp;·&nbsp; 범일정보 현장실습</summary>
-
-<br/>
-
-> 마이크 오디오를 실시간으로 수집·분석하여 낙상 사고를 자동 감지하고, 보호자에게 즉시 알림을 전송하는 시스템
-
-- WebSocket 기반 실시간 오디오 스트리밍 서버 개발
-- 낙상 감지 AI 모델 개발 — 오디오 데이터 전처리 및 분류 모델 구현
-- 낙상 여부·신뢰도·소리 유형(Impact, Scream, Thud 등) 분류 API 설계
-- 보호자 ↔ 피보호자 연결 코드 발급·검증 및 알림 전송 백엔드 구현
-- 사고 이력 및 위험도 저장·조회 API 개발
-
-[![Demo](https://img.shields.io/badge/DEMO-live-4CAF50?style=flat-square&logo=vercel&logoColor=white)](https://audio-fall-care-web.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/orgs/AudioFallCare/repositories)
+[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/orgs/Let-s-Study-Now/repositories)
 
 </details>
 
@@ -133,20 +113,20 @@
 </details>
 
 <details>
-<summary><b>🎓 &nbsp;설스터디 MVP</b> &nbsp;·&nbsp; Backend &nbsp;·&nbsp; 2026 블레이버스 해커톤 팀워크상</summary>
+<summary><b>🛡️ &nbsp;낙상 지킴이 (AudioFallCare)</b> &nbsp;·&nbsp; Backend · AI Model &nbsp;·&nbsp; 범일정보 현장실습</summary>
 
 <br/>
 
-> 멘토가 멘티의 학습 플래너를 관리하고 피드백을 제공하는 플랫폼
+> 마이크 오디오를 실시간으로 수집·분석하여 낙상 사고를 자동 감지하고, 보호자에게 즉시 알림을 전송하는 시스템
 
-- Spring Boot 기반 백엔드 API 전체 설계 및 구현
-- JWT 인증 / 인가 시스템 설계 (Stateless, Access Token)
-- 과제·플래너·피드백·댓글·주간 리포트 전 도메인 RESTful API 개발
-- Amazon S3 파일 업로드 통합, FCM 기반 푸시 알림 시스템 구현
-- AWS EC2 + RDS + ECR + GitHub Actions CI/CD 파이프라인 구축
-- 이미지 좌표 기반 피드백 시스템 설계 (비율 좌표, 해상도 무관)
+- WebSocket 기반 실시간 오디오 스트리밍 서버 개발
+- 낙상 감지 AI 모델 개발 — 오디오 데이터 전처리 및 분류 모델 구현
+- 낙상 여부·신뢰도·소리 유형(Impact, Scream, Thud 등) 분류 API 설계
+- 보호자 ↔ 피보호자 연결 코드 발급·검증 및 알림 전송 백엔드 구현
+- 사고 이력 및 위험도 저장·조회 API 개발
 
-[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/BlaybusHackathon)
+[![Demo](https://img.shields.io/badge/DEMO-live-4CAF50?style=flat-square&logo=vercel&logoColor=white)](https://audio-fall-care-web.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/orgs/AudioFallCare/repositories)
 
 </details>
 
@@ -168,18 +148,38 @@
 </details>
 
 <details>
-<summary><b>📚 &nbsp;Let's Study Now</b> &nbsp;·&nbsp; Frontend &nbsp;·&nbsp; 실시간 스터디 그룹 매칭</summary>
+<summary><b>🎓 &nbsp;설스터디 MVP</b> &nbsp;·&nbsp; Backend &nbsp;·&nbsp; 2026 블레이버스 해커톤 팀워크상</summary>
 
 <br/>
 
-> 즉석으로 스터디 그룹을 매칭해주는 웹 서비스
+> 멘토가 멘티의 학습 플래너를 관리하고 피드백을 제공하는 플랫폼
 
-- 회원가입 / 로그인 / 프로필 관리 UI 개발
-- 오픈 스터디·그룹 스터디·URL 공유 매칭 흐름 전체 구현
-- 스터디룸 — 공부/휴식 상태 표시, 타이머(자동 전환·알림), 상태메시지
-- 체크리스트 CRUD·순서 변경, 디데이 설정, 스터디 기록·달성률 조회
+- Spring Boot 기반 백엔드 API 전체 설계 및 구현
+- JWT 인증 / 인가 시스템 설계 (Stateless, Access Token)
+- 과제·플래너·피드백·댓글·주간 리포트 전 도메인 RESTful API 개발
+- Amazon S3 파일 업로드 통합, FCM 기반 푸시 알림 시스템 구현
+- AWS EC2 + RDS + ECR + GitHub Actions CI/CD 파이프라인 구축
+- 이미지 좌표 기반 피드백 시스템 설계 (비율 좌표, 해상도 무관)
 
-[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/orgs/Let-s-Study-Now/repositories)
+[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/BlaybusHackathon)
+
+</details>
+
+<details>
+<summary><b>🧭 &nbsp;진로온 (JinroOn)</b> &nbsp;·&nbsp; Frontend Lead · Backend &nbsp;·&nbsp; 종합설계(캡스톤) &nbsp;·&nbsp; AI 기반 맞춤형 전공 설계 플랫폼</summary>
+
+<br/>
+
+> 수천 개의 학과 데이터와 실시간 취업 트렌드를 AI로 분석하여 최적의 전공 경로를 제안하는 플랫폼
+
+- React 19 + TypeScript + Vite + Zustand 기반 프론트엔드 전담 — 인증, 전공진단, 역량평가, AI 상담, 결과 대시보드, 마이페이지, 관리자 등 10개 도메인 화면 구현
+- 백엔드 API 명세 직접 작성 및 팀 기술 스택 조율
+- 진단 세션 삭제 API, 진단 결과 공유 링크 접근 권한, 공유 리포트 작성자 닉네임 노출 등 백엔드 기능 일부 직접 구현
+- 페이지별 컴포넌트 분리 구조 설계 (`pages/페이지명/components/` 패턴), Axios 인스턴스 기반 API 레이어 분리
+- Vercel 프로덕션/스테이징 배포 파이프라인 구성
+
+[![Demo](https://img.shields.io/badge/DEMO-live-4CAF50?style=flat-square&logo=vercel&logoColor=white)](https://jinro-on.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/JinroOn)
 
 </details>
 
@@ -204,37 +204,38 @@
 </details>
 
 <details>
-<summary><b>🧭 &nbsp;진로온 (JinroOn)</b> &nbsp;·&nbsp; Frontend Lead · Backend &nbsp;·&nbsp; 종합설계(캡스톤) &nbsp;·&nbsp; AI 기반 맞춤형 전공 설계 플랫폼</summary>
+<summary><b>🎯 &nbsp;NowWhat</b> &nbsp;·&nbsp; Fullstack &nbsp;·&nbsp; 개인 프로젝트 &nbsp;·&nbsp; 할 일 우선순위 자동 추천 서비스</summary>
 
 <br/>
 
-> 수천 개의 학과 데이터와 실시간 취업 트렌드를 AI로 분석하여 최적의 전공 경로를 제안하는 플랫폼
+> 사용자가 직접 우선순위를 정하지 않아도, 긴급도·중요도·소요시간을 가중합해 할 일을 자동으로 정렬해주는 투두 서비스
 
-- React 19 + TypeScript + Vite + Zustand 기반 프론트엔드 전담 — 인증, 전공진단, 역량평가, AI 상담, 결과 대시보드, 마이페이지, 관리자 등 10개 도메인 화면 구현
-- 백엔드 API 명세 직접 작성 및 팀 기술 스택 조율
-- 진단 세션 삭제 API, 진단 결과 공유 링크 접근 권한, 공유 리포트 작성자 닉네임 노출 등 백엔드 기능 일부 직접 구현
-- 페이지별 컴포넌트 분리 구조 설계 (`pages/페이지명/components/` 패턴), Axios 인스턴스 기반 API 레이어 분리
-- Vercel 프로덕션/스테이징 배포 파이프라인 구성
+- Spring Boot 4.1(Java 21) + React 19 · TypeScript · Vite · Tailwind CSS 풀스택 설계 및 구현
+- 마감 임박도(지수 함수 감쇠)·중요도·소요시간 가중합 스코어링 엔진 구현, 사용자별 가중치 조정 시 미완료 과업 전체 재계산
+- 로컬 Ollama LLM으로 상위 동점 후보 재정렬, 실패 시 규칙 기반 순위로 자동 폴백 및 실패 로깅
+- 팀 협업 확장 — LLM 기반 업무 자동 그룹핑("역할 추천 분배"), 담당자 재배정, `@dnd-kit` 기반 실시간 공유 칸반보드
+- JWT 인증/인가, CORS 설정, MockMvc 통합 테스트 + 단위 테스트로 구성된 자동화 테스트 스위트(50개) 구축
 
-[![Demo](https://img.shields.io/badge/DEMO-live-4CAF50?style=flat-square&logo=vercel&logoColor=white)](https://jinro-on.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/JinroOn)
+[![Frontend](https://img.shields.io/badge/GitHub-frontend-30363d?style=flat-square&logo=github)](https://github.com/FAITRUEE/NowWhat_web)
+[![Backend](https://img.shields.io/badge/GitHub-backend-30363d?style=flat-square&logo=github)](https://github.com/FAITRUEE/NowWhat_was)
 
 </details>
 
 <details>
-<summary><b>🔔 &nbsp;공지캐치 (Notice-Catch)</b> &nbsp;·&nbsp; Backend &nbsp;·&nbsp; 대학 공지사항 맞춤 피드 · 스마트 알림 서비스 (개발 중)</summary>
+<summary><b>🔔 &nbsp;공지캐치 (Notice-Catch)</b> &nbsp;·&nbsp; Backend &nbsp;·&nbsp; 대학 공지사항 맞춤 피드 · 스마트 알림 안드로이드 앱</summary>
 
 <br/>
 
 > 대학 공지사항을 모아 맞춤형 피드와 스마트 알림을 제공하는 안드로이드 앱의 Spring Boot 백엔드
 
-- 마이페이지 프로필·알림 설정·관심 키워드 CRUD API 설계 및 구현
-- 스펙 로그(자격증·어학·수상 등) CRUD API 구현
-- 운영 공지사항·FAQ 조회 API 구현
-- Firebase Admin SDK 연동 및 FCM 푸시 발송 파이프라인 구현 — 신규 공지 키워드 매칭 알림(5분 주기), 스크랩 공지 마감임박 D-3 알림(매일 09시) 스케줄러 개발
-- 프로젝트 패키지 구조 리팩토링, 백엔드 개발 컨벤션 문서 작성
+- 마이페이지 프로필·알림 설정·관심 키워드·스펙 로그 CRUD API, 운영 공지사항·FAQ 조회 API 설계 및 구현
+- Firebase Admin SDK 연동 FCM 푸시 파이프라인 구현 — 신규 공지 키워드/카테고리 매칭 알림, 스크랩 마감임박 D-3 알림 스케줄러, 발송 로직을 배치 API로 분리해 DB 트랜잭션과 격리
+- AI 공지 요약 파이프라인 백엔드 연동 및 요약 배치의 트랜잭션 격리·커넥션 점유 문제 해결
+- 도메인별(auth·user·notice·keyword·notification 등) 단위 테스트 스위트 구축 및 API 명세서(API_SPEC.md) 작성
+- 공지 상세조회 500 에러(FK 방어·중복 스크랩 행), 알림 설정 응답 중복, 스크랩 카테고리 카운트 누락 등 운영 중 발견된 버그 다수 수정
+- GitHub Actions 배포 파이프라인 구축, 컨테이너 기동 실패를 삼키던 배포 스크립트 결함 수정, PR 자동 라벨링 워크플로우 추가
 
-[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&logo=github)](https://github.com/notice-catch/NoticeCatchBE)
+[![GitHub](https://img.shields.io/badge/GitHub-backend-30363d?style=flat-square&logo=github)](https://github.com/notice-catch/NoticeCatchBE)
 
 </details>
 
