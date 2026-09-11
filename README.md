@@ -26,7 +26,7 @@
 | | |
 |---|---|
 | 🥇 | 2026 블레이버스 MVP 개발 해커톤 — **팀워크상** |
-| 📜 | 정보처리기사 필기 |
+| 📜 | 정보처리기사 — 필기·실기 합격 |
 | 📝 | 빅데이터분석기사 — 원서접수 완료, 준비 중 |
 
 <br/>
@@ -238,6 +238,24 @@
 - GitHub Actions 배포 파이프라인 구축, 컨테이너 기동 실패를 삼키던 배포 스크립트 결함 수정, PR 자동 라벨링 워크플로우 추가
 
 [![GitHub](https://img.shields.io/badge/GitHub-backend-30363d?style=flat-square&logo=github)](https://github.com/notice-catch/NoticeCatchBE)
+
+</details>
+
+<details>
+<summary><b>🏙️ &nbsp;타운시그널 (TownSignal)</b> &nbsp;·&nbsp; 개발 중 &nbsp;·&nbsp; 영남대 AI서비스프로젝트 팀프로젝트 &nbsp;·&nbsp; 로컬 데이터 기반 상권·입주 적합도 분석 서비스</summary>
+
+<br/>
+
+> 유동인구·업종·매출 등 상권 데이터와 치안·소음·날씨 등 생활환경 데이터를 종합해 창업자와 입주자 모두에게 지역 적합도를 점수로 보여주는 서비스
+
+- 지역 검색 및 지도 기반 위치 선택
+- 상권 데이터(유동인구·업종 분포·매출) 및 생활환경 데이터(치안·소음·날씨) 조회
+- 다중 지표를 종합한 지역 적합도 점수·등급 산출 로직 설계
+- 후보지 2~3곳 비교, 창업/입주 목적별 가중치 차등 적용
+
+[![AI](https://img.shields.io/badge/GitHub-AI-30363d?style=flat-square&logo=github)](https://github.com/Town-Signal/TownSignalAI)
+[![Backend](https://img.shields.io/badge/GitHub-backend-30363d?style=flat-square&logo=github)](https://github.com/Town-Signal/TownSignalBE)
+[![Frontend](https://img.shields.io/badge/GitHub-frontend-30363d?style=flat-square&logo=github)](https://github.com/Town-Signal/TownSignalFE)
 
 </details>
 
