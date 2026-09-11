@@ -80,6 +80,10 @@
 
 ## 🛠 &nbsp;Projects
 
+*아이콘(항목)을 클릭하면 상세 내용을 확인할 수 있습니다.*
+
+<br/>
+
 <details>
 <summary><b>📚 &nbsp;Let's Study Now</b> &nbsp;·&nbsp; Frontend &nbsp;·&nbsp; 실시간 스터디 그룹 매칭</summary>
 
