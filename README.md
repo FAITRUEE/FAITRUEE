@@ -46,6 +46,7 @@
 | 2026.03 ~ 2026.06 | 영남대 컴퓨터공학과 인공지능 팀프로젝트(4인) | 온점 — AI 기반 문해력 향상 학습 플랫폼 | 백엔드·AI 담당 |
 | 2026.06.22 ~ 2026.07.10 | 영남대 첨단 AI 산업인재양성부트캠프 개인프로젝트 | NowWhat — 할 일 우선순위 자동 추천 서비스 | 풀스택 담당 |
 | 2026.07 ~ 2026.08 | UMC 10기 Platinum(부울경) | 공지캐치 — 대학생 맞춤 통합 공지 알리미 앱 | 백엔드·AI 담당 |
+| 2026.09.21 ~ 2026.10.07 | iM DiGital Banker Academy 9기 통계 프로젝트(5인 팀) | 돈독(Don-Ddok) — 수출 경기 충격의 법인 여신 전이 분석 | 통계 분석 — 여신·업종 분석 담당 |
 
 🎓 &nbsp;영남대학교 컴퓨터공학과 4학년 재학 중
 
@@ -260,6 +261,25 @@
 [![AI](https://img.shields.io/badge/GitHub-AI-30363d?style=flat-square&logo=github)](https://github.com/Town-Signal/TownSignalAI)
 [![Backend](https://img.shields.io/badge/GitHub-backend-30363d?style=flat-square&logo=github)](https://github.com/Town-Signal/TownSignalBE)
 [![Frontend](https://img.shields.io/badge/GitHub-frontend-30363d?style=flat-square&logo=github)](https://github.com/Town-Signal/TownSignalFE)
+
+</details>
+
+<details>
+<summary><b>📊 &nbsp;돈독 (Don-Ddok)</b> &nbsp;·&nbsp; 진행 중 &nbsp;·&nbsp; Data Analysis &nbsp;·&nbsp; iM DiGital Banker Academy 9기 통계 프로젝트(5인 팀) &nbsp;·&nbsp; 수출 경기 충격의 법인 여신 전이 분석</summary>
+
+<br/>
+
+> 대구·경북 법인 패널데이터에 관세청 수출입 통계·KOSIS 광공업생산지수를 결합해, 지역 수출 충격이 법인의 은행 거래(여신·예금)에 전이되는 시차와 방향을 검증하는 프로젝트. 담당 파트: 여신·업종 분석
+
+- 은행 업종_중분류(61개)와 KOSIS 광공업생산지수 업종 중분류(25개) 매핑·검증(24개 매칭)
+- 법인 패널 전처리 파이프라인 구축 — 외환노출(처치) 정의, 규모분위·거래기간 등 파생변수 생성
+- 업종별 여신 반응 방향(자금압박형 vs 수요소멸형) 차이를 법인 특성(규모·신용등급)으로 설명하는 분석 수행
+- 성향점수매칭, 여신 세부 항목별 시차 반응 분석 진행 중
+- Python(pandas·statsmodels) + Google Colab 기반 통계 분석, 팀 GitHub 조직 저장소·브랜치/커밋 컨벤션 구축
+
+[![Org](https://img.shields.io/badge/GitHub-org-30363d?style=flat-square&logo=github)](https://github.com/Don-Ddok)
+[![Data](https://img.shields.io/badge/GitHub-data-30363d?style=flat-square&logo=github)](https://github.com/Don-Ddok/Don-Ddok_Data)
+[![Docs](https://img.shields.io/badge/GitHub-docs-30363d?style=flat-square&logo=github)](https://github.com/Don-Ddok/Don-Ddok_Docs)
 
 </details>
 
