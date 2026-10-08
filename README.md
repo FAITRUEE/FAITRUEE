@@ -240,7 +240,7 @@
 </details>
 
 <details>
-<summary><b>💠 One Action</b> — AI 기반 멀티 클라우드 배포·운영 플랫폼</summary>
+<summary><b>💠 One Action</b> — AI 기반 멀티 클라우드 배포·운영 플랫폼 🚧</summary>
 
 > 로컬에서 개발한 웹 앱을 AI가 분석·검토해 로컬·AWS·GCP 어디로든 클릭 한 번으로 배포하는 플랫폼 · 4인 팀 · 담당: CI/CD 파이프라인과 배포 자동화
 > SoftBank 주최 선발 직결형 해커톤 (주제: One Action, Infinite Clouds)
