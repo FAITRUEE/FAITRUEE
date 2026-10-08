@@ -42,6 +42,7 @@
 | 2026.07~08 | 🔔 공지캐치 | UMC 10기 | Backend |
 | 2026.09~ | 🏙️ 타운시그널 🚧 | 영남대 AI서비스프로젝트 | CTO · AI |
 | 2026.09~10 | 📊 돈독 | iM뱅크 아카데미 9기 | Data Analysis · Dashboard |
+| 2026.10~ | 💠 One Action 🚧 | SoftBank Hackathon 2026 | CI/CD · Deployment |
 
 <sub>▼ 프로젝트 이름을 누르면 상세 내용이 펼쳐집니다.</sub>
 
@@ -235,6 +236,25 @@
 [![Dashboard](https://img.shields.io/badge/GitHub-Dashboard-30363d?style=flat-square&logo=github)](https://github.com/Don-Ddok/Don-Ddok_Dashboard)
 [![Data](https://img.shields.io/badge/GitHub-Data-30363d?style=flat-square&logo=github)](https://github.com/Don-Ddok/Don-Ddok_Data)
 [![Docs](https://img.shields.io/badge/GitHub-Docs-30363d?style=flat-square&logo=github)](https://github.com/Don-Ddok/Don-Ddok_Docs)
+
+</details>
+
+<details>
+<summary><b>💠 One Action</b> — AI 기반 멀티 클라우드 배포·운영 플랫폼</summary>
+
+> 로컬에서 개발한 웹 앱을 AI가 분석·검토해 로컬·AWS·GCP 어디로든 클릭 한 번으로 배포하는 플랫폼 · 4인 팀 · 담당: CI/CD 파이프라인과 배포 자동화
+> SoftBank 주최 선발 직결형 해커톤 (주제: One Action, Infinite Clouds)
+
+- GitHub 조직 저장소(앱·GitOps) 구성 — main 브랜치 보호로 PR + CI 통과한 변경만 병합, 조직 공용 이슈·PR 템플릿 적용
+- GitHub Actions CI 구축 — 테스트 → 이미지 빌드 → Trivy 취약점 검사 → GHCR 푸시 → GitOps 저장소 이미지 태그 자동 갱신
+- Argo CD GitOps 배포 — 로컬 k3s 클러스터에 구성해 코드 병합부터 배포까지 자동화, AWS EKS 연동 준비(ALB Ingress·클러스터 연결 문서화)
+- Argo Rollouts로 헬스체크 실패 시 자동 롤백 — 실패하는 버전을 배포해도 기존 버전이 서비스를 유지하는 것을 실제로 검증
+
+**Stack** · GitHub Actions · Argo CD · Argo Rollouts · Kubernetes (EKS · k3s) · Docker · GHCR · Trivy · AWS
+
+[![App](https://img.shields.io/badge/GitHub-App-30363d?style=flat-square&logo=github)](https://github.com/Crystal-SBHackathon2026/sample-app)
+[![GitOps](https://img.shields.io/badge/GitHub-GitOps-30363d?style=flat-square&logo=github)](https://github.com/Crystal-SBHackathon2026/gitops)
+[![Org](https://img.shields.io/badge/GitHub-Org-30363d?style=flat-square&logo=github)](https://github.com/Crystal-SBHackathon2026)
 
 </details>
 
