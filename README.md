@@ -42,7 +42,7 @@
 | 2026.07~08 | 🔔 공지캐치 | UMC 10기 | Backend |
 | 2026.09~ | 🏙️ 타운시그널 🚧 | 영남대 AI서비스프로젝트 | CTO · AI |
 | 2026.09~10 | 📊 돈독 | iM뱅크 아카데미 9기 | Data Analysis · Dashboard |
-| 2026.10~ | 💠 One Action 🚧 | SoftBank Hackathon 2026 | CI/CD · Deployment |
+| 2026.10 | 💠 One Action 🏆 | SoftBank Hackathon 2026 | CI/CD · Deployment |
 
 <sub>▼ 프로젝트 이름을 누르면 상세 내용이 펼쳐집니다.</sub>
 
@@ -240,20 +240,21 @@
 </details>
 
 <details>
-<summary><b>💠 One Action</b> — AI 기반 멀티 클라우드 배포·운영 플랫폼 🚧</summary>
+<summary><b>💠 One Action</b> — AI 기반 멀티 클라우드 배포·운영 플랫폼 🏆</summary>
 
 > 로컬에서 개발한 웹 앱을 AI가 분석·검토해 로컬·AWS·GCP 어디로든 클릭 한 번으로 배포하는 플랫폼 · 4인 팀 · 담당: CI/CD 파이프라인과 배포 자동화
-> SoftBank 주최 선발 직결형 해커톤 (주제: One Action, Infinite Clouds)
+> SoftBank 주최 선발 직결형 해커톤 (주제: One Action, Infinite Clouds) · **최우수상**
 
-- GitHub 조직 저장소(앱·GitOps) 구성 — main 브랜치 보호로 PR + CI 통과한 변경만 병합, 조직 공용 이슈·PR 템플릿 적용
-- GitHub Actions CI 구축 — 테스트 → 이미지 빌드 → Trivy 취약점 검사 → GHCR 푸시 → GitOps 저장소 이미지 태그 자동 갱신
-- Argo CD GitOps 배포 — 로컬 k3s 클러스터에 구성해 코드 병합부터 배포까지 자동화, AWS EKS 연동 준비(ALB Ingress·클러스터 연결 문서화)
-- Argo Rollouts로 헬스체크 실패 시 자동 롤백 — 실패하는 버전을 배포해도 기존 버전이 서비스를 유지하는 것을 실제로 검증
+- **같은 커밋 하나를 세 환경에** — 부산 로컬 k3s · 서울 AWS EKS · 도쿄 GCP GKE. 환경마다 조건이 달라 배포 방식을 나눔(서울·부산 카나리, 도쿄는 DB 때문에 블루그린 + 사람 승격)
+- **AI가 놓친 것을 배포가 잡게** — 응답 검사만으로는 "일부 요청만 실패"를 못 잡는 걸 30% 장애 주입으로 확인하고, Prometheus 에러율 지표를 더해 자동 중단·롤백을 구현. 실제 데모에서 기준 초과 2회 만에 멈추고 이전 버전이 서비스를 유지
+- **배포 전 구간 6분 17초 → 1분 43초** — 구간별로 실측해 원인을 찾음(PR·main 중복 빌드, 배포 도구의 3분 리비전 캐시, 분석 창과 지표 수집 주기 불일치). 캐시는 오히려 20초 느려 되돌림
+- **CI/CD와 GitOps 전 구간 자동화** — 테스트 → 이미지 빌드 → Trivy 검사 → GHCR → GitOps 태그 갱신 → Argo CD. AI 검토 통과 없이는 병합이 불가능하도록 커밋 상태를 필수 체크로 강제
 
-**Stack** · GitHub Actions · Argo CD · Argo Rollouts · Kubernetes (EKS · k3s) · Docker · GHCR · Trivy · AWS
+**Stack** · GitHub Actions · Argo CD · Argo Rollouts · Kubernetes (EKS · GKE · k3s) · Prometheus · Grafana · Docker · GHCR · Trivy · AWS · GCP
 
 [![App](https://img.shields.io/badge/GitHub-App-30363d?style=flat-square&logo=github)](https://github.com/Crystal-SBHackathon2026/sample-app)
 [![GitOps](https://img.shields.io/badge/GitHub-GitOps-30363d?style=flat-square&logo=github)](https://github.com/Crystal-SBHackathon2026/gitops)
+[![Infra](https://img.shields.io/badge/GitHub-Infra-30363d?style=flat-square&logo=github)](https://github.com/Crystal-SBHackathon2026/oneaction-infra)
 [![Org](https://img.shields.io/badge/GitHub-Org-30363d?style=flat-square&logo=github)](https://github.com/Crystal-SBHackathon2026)
 
 </details>
@@ -265,6 +266,7 @@
 | 구분 | 내용 | 시기 |
 |---|---|---|
 | 🥇 수상 | 2026 블레이버스 MVP 개발 해커톤 **베스트 팀워크상** | 2026.02 |
+| 🥇 수상 | SoftBank Hackathon 2026 powered by KOREC & Progate **최우수상** | 2026.10 |
 | 📜 자격 | **정보처리기사** 필기·실기 합격 | 2026.09 |
 
 <br/>
