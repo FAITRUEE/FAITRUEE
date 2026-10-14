@@ -40,7 +40,7 @@
 | 2026.03~06 | 📖 온점 | 영남대 인공지능 | AI · Backend (팀장) |
 | 2026.06~07 | 🎯 NowWhat | 영남대 AI 부트캠프 | Fullstack |
 | 2026.07~08 | 🔔 공지캐치 | UMC 10기 | Backend |
-| 2026.09~ | 🏙️ 타운시그널 🚧 | 영남대 AI서비스프로젝트 | CTO · AI |
+| 2026.09~ | 🏙️ 타운시그널 🚧 | 영남대 AI서비스프로젝트 | CTO · AI · 배포 |
 | 2026.09~10 | 📊 돈독 | iM뱅크 아카데미 9기 | Data Analysis · Dashboard |
 | 2026.10 | 💠 One Action 🏆 | SoftBank Hackathon 2026 | CI/CD · Deployment |
 
@@ -119,13 +119,13 @@
 <details>
 <summary><b>🎓 설스터디 (SeolStudy)</b> — 멘토·멘티 학습 관리 플랫폼 🏆</summary>
 
-> 멘토가 멘티의 학습 플래너를 관리하고 피드백을 주는 플랫폼 · 10일간 백엔드 2인이 14개 도메인, 50개 이상 API 개발
+> 멘토가 멘티의 학습 플래너를 관리하고 피드백을 주는 플랫폼 · 10일간 백엔드 2인이 14개 도메인, 60개 이상 API 개발
 > 2026 블레이버스 MVP 개발 해커톤 · **베스트 팀워크상**
 
 - 과제·플래너·피드백·댓글·주간 리포트 REST API, JWT 인증/인가
 - 이미지 좌표 기반 피드백 설계 (비율 좌표로 해상도 무관)
-- S3 파일 업로드, FCM 푸시 알림
-- AWS EC2 · RDS · ECR + GitHub Actions CI/CD 자동 배포
+- FCM 푸시 알림 — 과제 · 제출 · 피드백 · 댓글 이벤트별, 알림 클릭 시 해당 화면으로 이동
+- 엔드포인트별 권한 설정, 과목별 공부 시간 집계
 
 **Stack** · Spring Boot 4.0 · Java 21 · AWS · Docker · GitHub Actions · FCM · Swagger
 
@@ -209,11 +209,12 @@
 
 > 조건을 입력하면 받을 수 있는 창업 지원금을 예산으로 환산하고, 그 예산으로 유리한 서울 행정동을 거꾸로 추천
 
-- Spring 뼈대를 FastAPI 구조(api · batch · common)로 교체, CI/CD 정리
-- 배치가 예측 결과(426개 동 × 100개 업종)를 미리 계산하고 요청 시엔 조회만 하는 구조 설계·문서화
-- 행정동 × 업종별 예상 매출·생존 기간 예측 모델 설계 (진행 중)
+- Spring 뼈대를 FastAPI 구조(api · batch · common)로 교체하고 배포 파이프라인 직접 구축
+- CI 통과 커밋만 ECR → EC2 자동 배포, 헬스체크 실패 시 직전 버전으로 자동 롤백 · 배포 중에만 SSH 개방 · 최소 권한 IAM
+- 배치가 예측 결과(426개 동 × 100개 업종)를 미리 계산하고 요청 시엔 조회만 하는 구조 설계
+- 매출(모델 A) · 생존(모델 B) 예측 모델과 추천 순위 백테스트 구현
 
-**Stack** · Python · FastAPI · React · Docker · GitHub Actions
+**Stack** · Python · FastAPI · PostgreSQL · React · Docker · GitHub Actions · AWS (ECR · EC2)
 
 [![Server](https://img.shields.io/badge/GitHub-Server-30363d?style=flat-square&logo=github)](https://github.com/Town-Signal/TownSignalServer)
 [![Frontend](https://img.shields.io/badge/GitHub-Frontend-30363d?style=flat-square&logo=github)](https://github.com/Town-Signal/TownSignalFE)
@@ -227,9 +228,9 @@
 > **팀 결과**: 수출 경기와 함께 움직인 계정은 요구불예금뿐 (수출 증감률 10%p 하락 시 6개월 뒤 비교 기업보다 약 3.6% 낮음). 나머지 계정은 확인하지 못함
 
 - 법인 패널 전처리와 업종 매핑 검증(은행 업종 ↔ KOSIS 광공업생산지수), 성향점수매칭으로 노출·비노출 법인 비교
-- 환율·달력·기준금리·사전 추세 점검을 결과 확인 전에 설계하고 실행, Holm 보정까지 거쳐 약한 증거도 한계와 함께 보고 (분석별 그림 22장 정리)
-- 결과를 은행 마케팅 담당자용 **법인 고객 마케팅 월보** 웹으로 구현 (이번 달 추천·팀 인사이트·용어 사전, Vercel 배포, PR 28건)
-- 팀 저장소 4개(Data·Docs·Dashboard·조직 프로필) 정리, 원본 데이터·법인 ID가 올라가지 않았는지 전체 이력 점검 후 최종 발표
+- 담당 파트(여신·업종) 결과: 수출이 꺾일 때 비노출 법인만 운전자금 대출을 줄이는 경향 — 약한 증거(p = 0.094)이고 사전 추세가 의심돼 인과로 해석하지 않음
+- 환율·달력·기준금리·사전 추세 점검마다 실행 전에 설계를 고정하고 사후 분석은 따로 표시, Holm 보정 (분석별 그림 22장)
+- 결과를 은행 마케팅 담당자용 **법인 고객 마케팅 월보** 웹으로 구현(Vercel, PR 28건), 팀 저장소 4개 정리와 원본 데이터 · 법인 ID 유출 점검
 
 **Stack** · Python · pandas · statsmodels · React 19 · TypeScript · Recharts · Vercel
 
@@ -243,13 +244,13 @@
 <details>
 <summary><b>💠 One Action</b> — AI 기반 멀티 클라우드 배포·운영 플랫폼 🏆</summary>
 
-> 로컬에서 개발한 웹 앱을 AI가 분석·검토해 로컬·AWS·GCP 어디로든 클릭 한 번으로 배포하는 플랫폼 · 4인 팀 · 담당: CI/CD 파이프라인과 배포 자동화
+> 로컬에서 개발한 웹 앱을 AI가 분석·검토해 로컬·AWS·GCP 어디로든 클릭 한 번으로 배포하는 플랫폼 · 4인 팀 · 담당: CI/CD 파이프라인과 배포 자동화 · PR 70건 이상 기여
 > SoftBank 주최 선발 직결형 해커톤 (주제: One Action, Infinite Clouds) · **최우수상**
 
 - **같은 커밋 하나를 세 환경에** — 부산 로컬 k3s · 서울 AWS EKS · 도쿄 GCP GKE. 환경마다 조건이 달라 배포 방식을 나눔(서울·부산 카나리, 도쿄는 DB 때문에 블루그린 + 사람 승격)
 - **AI가 놓친 것을 배포가 잡게** — 응답 검사만으로는 "일부 요청만 실패"를 못 잡는 걸 30% 장애 주입으로 확인하고, Prometheus 에러율 지표를 더해 자동 중단·롤백을 구현. 실제 데모에서 기준 초과 2회 만에 멈추고 이전 버전이 서비스를 유지
 - **배포 전 구간 6분 17초 → 1분 47초** — 구간별로 실측해 원인을 찾음(PR·main 중복 빌드, 배포 도구의 3분 리비전 캐시, 분석 창과 지표 수집 주기 불일치). 캐시는 오히려 20초 느려 되돌림
-- **CI/CD와 GitOps 전 구간 자동화** — 테스트 → 이미지 빌드 → Trivy 검사 → GHCR → GitOps 태그 갱신 → Argo CD. AI 검토 통과 없이는 병합이 불가능하도록 커밋 상태를 필수 체크로 강제
+- **CI/CD와 GitOps 전 구간 자동화** — PR에서 테스트 · 이미지 빌드 · Trivy 검사, 병합 후 GHCR 푸시 → GitOps 태그 갱신 → Argo CD. AI 검토 통과 없이는 병합이 불가능하도록 커밋 상태를 필수 체크로 강제
 
 **Stack** · GitHub Actions · Argo CD · Argo Rollouts · Kubernetes (EKS · GKE · k3s) · Prometheus · Grafana · Docker · GHCR · Trivy · AWS · GCP
 
