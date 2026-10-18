@@ -31,10 +31,10 @@
 
 | 기간 | 프로젝트 | 소속 | 역할 |
 |---|---|---|---|
-| 2024.09~12 | 📚 Let's Study Now | 영남대 소프트웨어공학 | Frontend |
+| 2025.09~12 | 📚 Let's Study Now | 영남대 소프트웨어공학 | Frontend (팀장) |
 | 2026.01~02 | 📋 통합 협업 게시판 | 범일정보 현장실습 | Fullstack |
 | 2026.01~02 | 🛡️ 낙상 지킴이 | 범일정보 현장실습 | Backend · AI (팀장) |
-| 2026.01 | 💡 AI 코드 계보 추적 | 바이브코딩 AI 공모전 | 기획 · 데모 |
+| 2026.01~03 | 💡 AI 코드 계보 추적 | 바이브코딩 AI 공모전 | 기획 · 데모 |
 | 2026.02 | 🎓 설스터디 🏆 | 블레이버스 해커톤 | Backend |
 | 2026.03~12 | 🧭 진로온 | 영남대 캡스톤 | Frontend Lead |
 | 2026.03~06 | 📖 온점 | 영남대 인공지능 | AI · Backend (팀장) |
@@ -93,7 +93,6 @@
 
 **Stack** · Spring Boot 3.5 · Java 17 · PyTorch · FastAPI · PostgreSQL · Redis · Docker · FCM
 
-[![Demo](https://img.shields.io/badge/Demo-live-4CAF50?style=flat-square&logo=vercel&logoColor=white)](https://audio-fall-care-web.vercel.app/)
 [![Backend](https://img.shields.io/badge/GitHub-Backend-30363d?style=flat-square&logo=github)](https://github.com/AudioFallCare/AudioFallCare_was)
 [![AI](https://img.shields.io/badge/GitHub-AI-30363d?style=flat-square&logo=github)](https://github.com/AudioFallCare/AudioFallCare_ai)
 [![Frontend](https://img.shields.io/badge/GitHub-Frontend-30363d?style=flat-square&logo=github)](https://github.com/AudioFallCare/AudioFallCare_web)
@@ -122,7 +121,7 @@
 > 멘토가 멘티의 학습 플래너를 관리하고 피드백을 주는 플랫폼 · 10일간 백엔드 2인이 14개 도메인, 60개 이상 API 개발
 > 2026 블레이버스 MVP 개발 해커톤 · **베스트 팀워크상**
 
-- 과제·플래너·피드백·댓글·주간 리포트 REST API, JWT 인증/인가
+- 플래너·과제(타이머)·과제 제출·피드백·댓글 REST API (백엔드 2인 중 담당 도메인)
 - 이미지 좌표 기반 피드백 설계 (비율 좌표로 해상도 무관)
 - FCM 푸시 알림 — 과제 · 제출 · 피드백 · 댓글 이벤트별, 알림 클릭 시 해당 화면으로 이동
 - 엔드포인트별 권한 설정, 과목별 공부 시간 집계
@@ -139,9 +138,9 @@
 
 > 학과 데이터와 취업 트렌드를 AI로 분석해 맞는 전공을 추천하는 플랫폼
 
-- 프론트엔드 전담 — 인증·전공진단·역량평가·AI 상담·결과 대시보드 등 10개 도메인 화면
+- 프론트엔드 메인(코드 약 78%) — 인증·전공진단·역량평가·AI 상담·결과 대시보드 등 10개 도메인 화면
 - 페이지별 컴포넌트 구조(`pages/페이지명/components/`)와 Axios 기반 API 레이어 설계
-- 백엔드 API 명세 작성, 진단 세션 삭제·공유 링크 권한 등 일부 API 직접 구현
+- 진단 세션 삭제·공유 링크 권한 등 일부 백엔드 API 직접 구현
 - Vercel 프로덕션/스테이징 배포 구성
 
 **Stack** · React 19 · TypeScript · Vite · Zustand · Vercel
@@ -191,12 +190,12 @@
 <details>
 <summary><b>🔔 공지캐치 (Notice-Catch)</b> — 대학생 맞춤 통합 공지 알리미 앱</summary>
 
-> 대학 공지를 모아 맞춤 피드와 알림을 주는 안드로이드 앱의 백엔드 · PR 80건 이상 기여
+> 대학 공지를 모아 맞춤 피드와 알림을 주는 안드로이드 앱의 백엔드 · PR 40건 이상 기여
 
 - 마이페이지·알림 설정·관심 키워드·스펙 로그 API 설계·구현
 - FCM 푸시 파이프라인 — 키워드/카테고리 매칭 알림, 마감 D-3 스케줄러, 발송 배치를 트랜잭션과 분리
 - AI 요약 배치의 트랜잭션·커넥션 점유 문제 해결, 운영 중 500 에러 등 버그 수정
-- 도메인별 단위 테스트, API 명세서, GitHub Actions 배포 파이프라인
+- 도메인별 단위 테스트(약 125개), API 명세서를 실제 구현 기준으로 정비, 배포 스크립트·Swagger 프록시 버그 수정
 
 **Stack** · Spring Boot 4.1 · Java 21 · Redis · FCM · Docker · GitHub Actions
 
@@ -211,7 +210,7 @@
 
 - Spring 뼈대를 FastAPI 구조(api · batch · common)로 교체하고 배포 파이프라인 직접 구축
 - CI 통과 커밋만 ECR → EC2 자동 배포, 헬스체크 실패 시 직전 버전으로 자동 롤백 · 배포 중에만 SSH 개방 · 최소 권한 IAM
-- 배치가 예측 결과(426개 동 × 100개 업종)를 미리 계산하고 요청 시엔 조회만 하는 구조 설계
+- 배치가 예측 결과(425개 동 × 100개 업종)를 미리 계산하고 요청 시엔 조회만 하는 구조 설계
 - 매출(모델 A) · 생존(모델 B) 예측 모델과 추천 순위 백테스트 구현
 
 **Stack** · Python · FastAPI · PostgreSQL · React · Docker · GitHub Actions · AWS (ECR · EC2)
@@ -249,7 +248,7 @@
 
 - **같은 커밋 하나를 세 환경에** — 부산 로컬 k3s · 서울 AWS EKS · 도쿄 GCP GKE. 환경마다 조건이 달라 배포 방식을 나눔(서울·부산 카나리, 도쿄는 DB 때문에 블루그린 + 사람 승격)
 - **AI가 놓친 것을 배포가 잡게** — 응답 검사만으로는 "일부 요청만 실패"를 못 잡는 걸 30% 장애 주입으로 확인하고, Prometheus 에러율 지표를 더해 자동 중단·롤백을 구현. 실제 데모에서 기준 초과 2회 만에 멈추고 이전 버전이 서비스를 유지
-- **배포 전 구간 6분 17초 → 1분 47초** — 구간별로 실측해 원인을 찾음(PR·main 중복 빌드, 배포 도구의 3분 리비전 캐시, 분석 창과 지표 수집 주기 불일치). 캐시는 오히려 20초 느려 되돌림
+- **PR부터 세 환경 배포까지 1분 47초** — 구간별로 실측해 병목을 찾아 줄임(PR·main 중복 빌드, 배포 도구의 리비전 캐시, 분석 창과 지표 수집 주기 불일치). 캐시는 오히려 20초 느려 되돌림
 - **CI/CD와 GitOps 전 구간 자동화** — PR에서 테스트 · 이미지 빌드 · Trivy 검사, 병합 후 GHCR 푸시 → GitOps 태그 갱신 → Argo CD. AI 검토 통과 없이는 병합이 불가능하도록 커밋 상태를 필수 체크로 강제
 
 **Stack** · GitHub Actions · Argo CD · Argo Rollouts · Kubernetes (EKS · GKE · k3s) · Prometheus · Grafana · Docker · GHCR · Trivy · AWS · GCP
