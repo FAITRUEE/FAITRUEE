@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,100:2b6cb0&height=220&section=header&text=FAITRUEE&fontSize=72&fontColor=ffffff&stroke=58a6ff&strokeWidth=1&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,100:2b6cb0&height=220&section=header&text=%EC%9D%B4%EC%84%B1%EC%A7%84&fontSize=72&fontColor=ffffff&stroke=58a6ff&strokeWidth=1&animation=fadeIn)
 
 <img src="https://render.gitanimals.org/farms/FAITRUEE?loading" />
 
