@@ -20,8 +20,8 @@
 | 분야 | 기술 |
 |:---:|---|
 | **Backend** | ![Java](https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=f89820) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-0d1117?style=flat-square&logo=springboot&logoColor=6DB33F) ![Spring Security](https://img.shields.io/badge/Spring%20Security-0d1117?style=flat-square&logo=springsecurity&logoColor=6DB33F) ![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=009688) ![JPA](https://img.shields.io/badge/JPA-0d1117?style=flat-square&logo=hibernate&logoColor=59666C) ![JWT](https://img.shields.io/badge/JWT-0d1117?style=flat-square&logo=jsonwebtokens&logoColor=ffffff) |
-| **Frontend** | ![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178C6) ![React](https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-0d1117?style=flat-square&logo=vite&logoColor=646CFF) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-0d1117?style=flat-square&logo=tailwindcss&logoColor=06B6D4) ![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=F7DF1E) |
-| **AI · Data** | ![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB) ![PyTorch](https://img.shields.io/badge/PyTorch-0d1117?style=flat-square&logo=pytorch&logoColor=EE4C2C) ![pandas](https://img.shields.io/badge/pandas-0d1117?style=flat-square&logo=pandas&logoColor=ffffff) ![scikit-learn](https://img.shields.io/badge/scikit--learn-0d1117?style=flat-square&logo=scikitlearn&logoColor=F7931E) ![Transformers](https://img.shields.io/badge/Transformers%20·%20QLoRA-0d1117?style=flat-square&logo=huggingface&logoColor=FFD21E) ![Ollama](https://img.shields.io/badge/Ollama-0d1117?style=flat-square&logo=ollama&logoColor=ffffff) ![Qwen](https://img.shields.io/badge/Qwen2.5-0d1117?style=flat-square) |
+| **Frontend** | ![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178C6) ![React](https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-0d1117?style=flat-square&logo=vite&logoColor=646CFF) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-0d1117?style=flat-square&logo=tailwindcss&logoColor=06B6D4) ![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=F7DF1E) ![three.js](https://img.shields.io/badge/three.js-0d1117?style=flat-square&logo=threedotjs&logoColor=ffffff) |
+| **AI · Data** | ![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB) ![PyTorch](https://img.shields.io/badge/PyTorch-0d1117?style=flat-square&logo=pytorch&logoColor=EE4C2C) ![pandas](https://img.shields.io/badge/pandas-0d1117?style=flat-square&logo=pandas&logoColor=ffffff) ![scikit-learn](https://img.shields.io/badge/scikit--learn-0d1117?style=flat-square&logo=scikitlearn&logoColor=F7931E) ![Transformers](https://img.shields.io/badge/Transformers%20·%20QLoRA-0d1117?style=flat-square&logo=huggingface&logoColor=FFD21E) ![Ollama](https://img.shields.io/badge/Ollama-0d1117?style=flat-square&logo=ollama&logoColor=ffffff) ![Qwen](https://img.shields.io/badge/Qwen2.5-0d1117?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-0d1117?style=flat-square&logo=opencv&logoColor=5C3EE8) |
 | **Database** | ![MySQL](https://img.shields.io/badge/MySQL-0d1117?style=flat-square&logo=mysql&logoColor=4479A1) ![MariaDB](https://img.shields.io/badge/MariaDB-0d1117?style=flat-square&logo=mariadb&logoColor=003545) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=4169E1) ![Redis](https://img.shields.io/badge/Redis-0d1117?style=flat-square&logo=redis&logoColor=FF4438) |
 | **DevOps** | ![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=2496ED) ![Kubernetes](https://img.shields.io/badge/Kubernetes-0d1117?style=flat-square&logo=kubernetes&logoColor=326CE5) ![Argo CD](https://img.shields.io/badge/Argo%20CD-0d1117?style=flat-square&logo=argo&logoColor=EF7B4D) ![Argo Rollouts](https://img.shields.io/badge/Argo%20Rollouts-0d1117?style=flat-square&logo=argo&logoColor=EF7B4D) ![AWS](https://img.shields.io/badge/AWS-0d1117?style=flat-square&logo=amazonwebservices&logoColor=FF9900) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0d1117?style=flat-square&logo=githubactions&logoColor=2088FF) ![Prometheus](https://img.shields.io/badge/Prometheus-0d1117?style=flat-square&logo=prometheus&logoColor=E6522C) ![Grafana](https://img.shields.io/badge/Grafana-0d1117?style=flat-square&logo=grafana&logoColor=F46800) ![Vercel](https://img.shields.io/badge/Vercel-0d1117?style=flat-square&logo=vercel&logoColor=ffffff) ![Firebase](https://img.shields.io/badge/Firebase-0d1117?style=flat-square&logo=firebase&logoColor=FFCA28) |
 | **Collaboration** | ![Notion](https://img.shields.io/badge/Notion-0d1117?style=flat-square&logo=notion&logoColor=ffffff) ![Slack](https://img.shields.io/badge/Slack-0d1117?style=flat-square&logo=slack&logoColor=E01E5A) ![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=ffffff) |
@@ -44,6 +44,7 @@
 | 2026.09~ | 🏙️ 타운시그널 🚧 | 영남대 AI서비스프로젝트 | CTO · AI · 배포 |
 | 2026.09~10 | 📊 돈독 | iM뱅크 아카데미 9기 | Data Analysis · Dashboard |
 | 2026.10 | 💠 One Action 🏆 | SoftBank Hackathon 2026 | CI/CD · Deployment |
+| 2026.10~ | ☀️ 눈치 🚧 | iM뱅크 아카데미 9기 | PM · Frontend · AI |
 
 <sub>▼ 프로젝트 이름을 누르면 상세 내용이 펼쳐집니다.</sub>
 
@@ -258,6 +259,26 @@
 [![GitOps](https://img.shields.io/badge/GitHub-GitOps-30363d?style=flat-square&logo=github)](https://github.com/Crystal-SBHackathon2026/gitops)
 [![Infra](https://img.shields.io/badge/GitHub-Infra-30363d?style=flat-square&logo=github)](https://github.com/Crystal-SBHackathon2026/oneaction-infra)
 [![Org](https://img.shields.io/badge/GitHub-Org-30363d?style=flat-square&logo=github)](https://github.com/Crystal-SBHackathon2026)
+
+</details>
+
+<details>
+<summary><b>☀️ 눈치 (Nunchi)</b> — 햇빛 눈부심 위험을 체험하는 운전 시뮬레이터 · 눈부심 분류 &nbsp;🚧</summary>
+
+> 해가 진행 방향 정면에 낮게 뜰 때의 위험을, 고속도로 사고 데이터 분석과 전방 영상 눈부심 분류 모델로 확인하고 대구 도로를 본뜬 운전 게임으로 보여주는 머신러닝 프로젝트 · 4인 팀 · 담당: PM, 프론트엔드, 눈부심 분류 모델
+
+- 눈부심 3단계 분류 시범 검증 — 화면 특징 12개(OpenCV) + LightGBM, 영상 단위 교차검증 macro F1 0.33(밝기 규칙) → 0.57 (시범 라벨 130장, 팀 라벨로 재검증 예정)
+- 운전 시뮬레이터 「눈치 드라이브」 — OpenStreetMap 실제 건물 4,300여 채로 대구 달구벌대로를 재현하고, 날짜 · 시각별 태양 위치로 눈부심과 지붕 · 필러 · 건물 가림을 계산
+- 1인칭 운전석 · 실시간 백미러 · 오픈카 모드 · 부분 차광(스마트 유리) 비교, 체험용 예시와 모델 결과를 화면에 구분 표시
+- 기획 · 노션 문서 체계 · GitHub 조직 운영, Vercel 배포
+
+**Stack** · Python · LightGBM · OpenCV · React · TypeScript · three.js · zustand · FastAPI · Vercel
+
+[![Demo](https://img.shields.io/badge/Demo-live-4CAF50?style=flat-square&logo=vercel&logoColor=white)](https://nunchi-drive.vercel.app)
+[![Frontend](https://img.shields.io/badge/GitHub-Frontend-30363d?style=flat-square&logo=github)](https://github.com/Nunchi-ML/Nunchi-ML_FE)
+[![AI](https://img.shields.io/badge/GitHub-AI-30363d?style=flat-square&logo=github)](https://github.com/Nunchi-ML/Nunchi-ML_AI)
+[![Backend](https://img.shields.io/badge/GitHub-Backend-30363d?style=flat-square&logo=github)](https://github.com/Nunchi-ML/Nunchi-ML_BE)
+[![Org](https://img.shields.io/badge/GitHub-Org-30363d?style=flat-square&logo=github)](https://github.com/Nunchi-ML)
 
 </details>
 
