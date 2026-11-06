@@ -44,7 +44,7 @@
 | 2026.09~ | 🏙️ 타운시그널 🚧 | 영남대 AI서비스프로젝트 | CTO · AI · 배포 |
 | 2026.09~10 | 📊 돈독 | iM뱅크 아카데미 9기 | Data Analysis · Dashboard |
 | 2026.10 | 💠 One Action 🏆 | SoftBank Hackathon 2026 | CI/CD · Deployment |
-| 2026.10~ | ☀️ 눈치 🚧 | iM뱅크 아카데미 9기 | PM · Frontend · AI |
+| 2026.10~11 | ☀️ 눈치 🚧 | iM뱅크 아카데미 9기 | PM · AI · Fullstack |
 
 <sub>▼ 프로젝트 이름을 누르면 상세 내용이 펼쳐집니다.</sub>
 
@@ -263,16 +263,19 @@
 </details>
 
 <details>
-<summary><b>☀️ 눈치 (Nunchi)</b> — 햇빛 눈부심 위험을 체험하는 운전 시뮬레이터 · 눈부심 분류 &nbsp;🚧</summary>
+<summary><b>☀️ 눈치 (Nunchi)</b> — 빛 변화에 대비하는 주행 안내 · 태양광 눈부심 분류 모델 + 운전 시뮬레이터 &nbsp;🚧</summary>
 
-> 해가 진행 방향 정면에 낮게 뜰 때의 위험을, 고속도로 사고 데이터 분석과 전방 영상 눈부심 분류 모델로 확인하고 대구 도로를 본뜬 운전 게임으로 보여주는 머신러닝 프로젝트 · 4인 팀 · 담당: PM, 프론트엔드, 눈부심 분류 모델
+> 해가 정면에 낮게 들어오거나 터널을 드나들 때 앞이 잘 안 보이는 순간을 데이터로 먼저 알아채고, 눈부심이 적은 길을 고르거나 미리 대비하게 돕는 머신러닝 프로젝트 · 4인 팀 · 담당: PM, 태양광 눈부심 분류 모델, 운전 시뮬레이터(FE · BE)
 
-- 눈부심 3단계 분류 시범 검증 — 화면 특징 12개(OpenCV) + LightGBM, 영상 단위 교차검증 macro F1 0.33(밝기 규칙) → 0.57 (시범 라벨 130장, 팀 라벨로 재검증 예정)
-- 운전 시뮬레이터 「눈치 드라이브」 — OpenStreetMap 실제 건물 4,300여 채로 대구 달구벌대로를 재현하고, 날짜 · 시각별 태양 위치로 눈부심과 지붕 · 필러 · 건물 가림을 계산
-- 1인칭 운전석 · 실시간 백미러 · 오픈카 모드 · 부분 차광(스마트 유리) 비교, 체험용 예시와 모델 결과를 화면에 구분 표시
-- 기획 · 노션 문서 체계 · GitHub 조직 운영, Vercel 배포
+- **태양광 눈부심 분류 모델** — 사진 밝기 특징 12개(OpenCV) + 촬영 시각·위치·방향으로 계산한 해 위치·날씨 6개를 결합한 2단계 로지스틱 회귀(눈부심이 있나? → 심한가?)
+- 71개 실험을 같은 데이터·정답·촬영 단위 교차검증으로 비교 — 평균 F1 **0.640**, 가장 강한 규칙(경계값 학습 규칙, 0.636) 대비 헛경보 7.9 vs 9.5장, **처음 보는 카메라에서 눈부심 판정 0.83 vs 규칙 0.39~0.46**
+- 데이터 정비 — Mapillary·블랙박스 사진의 시각(UTC 9시간 오차)·방향 보정, 기상청 ASOS 날씨 결합(미래 시각 참조 누수 제거), 라벨 기준표로 판정자 일치도 0.20 → 0.56
+- **운영 API** — FastAPI · Render에 선정 모델 주소(`/predict/glare/photo-g`) 배포, 모델 묶음 SHA-256 고정·CI 자동 검증
+- **운전 시뮬레이터 「눈치 드라이브」** — 대구 달구벌대로·신천대로(지하차도 12곳)를 실제 도로·건물 데이터로 3D 재현, 날짜·시각별 해 위치와 건물 가림 계산
+- 시뮬레이터 화면·휴대폰 카메라(GPS · 나침반)를 선정 모델로 실시간 판정, 대표 코스는 100 m마다 미리 판정해 주행 화면에 안내 · 도로변 전광판 · 지하차도 밝기 전환 체험
+- PM — 노션 문서 체계 · GitHub 조직 · 보고서/발표 시나리오 구성
 
-**Stack** · Python · LightGBM · OpenCV · React · TypeScript · three.js · zustand · FastAPI · Vercel
+**Stack** · Python · scikit-learn · OpenCV · pvlib · FastAPI · Render · React · TypeScript · three.js · zustand · Vercel
 
 [![Demo](https://img.shields.io/badge/Demo-live-4CAF50?style=flat-square&logo=vercel&logoColor=white)](https://nunchi-drive.vercel.app)
 [![Frontend](https://img.shields.io/badge/GitHub-Frontend-30363d?style=flat-square&logo=github)](https://github.com/Nunchi-ML/Nunchi-ML_FE)
