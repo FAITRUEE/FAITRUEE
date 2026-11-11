@@ -267,6 +267,11 @@
 
 <img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/slides/cover.jpg" width="100%" alt="눈치 발표 표지"/>
 
+<table><tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_glare.jpg" alt="주행 중 정면 눈부심 안내"/><br/><sub>주행 중 정면 눈부심 판정 · 감속 안내</sub></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_route.jpg" alt="출발 전 경로 안내"/><br/><sub>출발 전 코스 미리 판정</sub></td>
+</tr></table>
+
 > 해가 정면에 낮게 들어오거나 터널을 드나들 때 앞이 잘 안 보이는 순간을 데이터로 먼저 알아채고, 눈부심이 적은 길을 고르거나 미리 대비하게 돕는 머신러닝 프로젝트 · 4인 팀 · 담당: PM, 태양광 눈부심 분류 모델, 운전 시뮬레이터(FE · BE)
 
 - **태양광 눈부심 분류 모델** — 사진 밝기 특징 12개(OpenCV) + 촬영 시각·위치·방향으로 계산한 해 위치·날씨 6개를 결합한 2단계 로지스틱 회귀(눈부심이 있나? → 심한가?)
