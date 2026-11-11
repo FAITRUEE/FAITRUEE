@@ -52,8 +52,8 @@
 <summary><b>📚 Let's Study Now</b> — 실시간 스터디 그룹 매칭 서비스</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/lsn_main.jpg" alt="메인 화면"/><br/><sub>메인 화면</sub></td>
-<td width="50%"><img src="assets/projects/lsn_open.jpg" alt="오픈 스터디 목록 · 바로 참여"/><br/><sub>오픈 스터디 목록 · 바로 참여</sub></td>
+<td width="50%"><img src="assets/projects/lsn_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
+<td width="50%"><img src="assets/projects/lsn_main.jpg" alt="오픈 스터디 — 바로 참여할 방 찾기"/><br/><sub>오픈 스터디 — 바로 참여할 방 찾기</sub></td>
 </tr></table>
 
 
@@ -76,8 +76,8 @@
 <summary><b>📋 통합 협업 게시판</b> — 게시판 · 칸반 · AI 작성 도우미 협업 툴</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/board_demo.gif" alt="칸반 드래그 앤 드롭 시연"/><br/><sub>칸반 드래그 앤 드롭 시연</sub></td>
-<td width="50%"><img src="assets/projects/board_ai.jpg" alt="AI 작성 도우미"/><br/><sub>AI 작성 도우미</sub></td>
+<td width="50%"><img src="assets/projects/board_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
+<td width="50%"><img src="assets/projects/board_main.jpg" alt="게시판 메인"/><br/><sub>게시판 메인</sub></td>
 </tr></table>
 
 
@@ -99,8 +99,8 @@
 <summary><b>🛡️ 낙상 지킴이 (AudioFallCare)</b> — 소리 기반 AI 낙상 감지 시스템</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/afc_system.jpg" alt="시스템 구성 (IoT → AI → 백엔드 → 보호자)"/><br/><sub>시스템 구성 (IoT → AI → 백엔드 → 보호자)</sub></td>
-<td width="50%"><img src="assets/projects/afc_alert.jpg" alt="보호자-피보호자 연동 · 낙상 알림"/><br/><sub>보호자-피보호자 연동 · 낙상 알림</sub></td>
+<td width="50%"><img src="assets/projects/afc_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
+<td width="50%"><img src="assets/projects/afc_main.jpg" alt="보호자 앱 — 소리 감지 기록"/><br/><sub>보호자 앱 — 소리 감지 기록</sub></td>
 </tr></table>
 
 
@@ -123,8 +123,8 @@
 <summary><b>💡 AI 코드 계보 추적 시스템</b> — AI 생성 코드 신뢰 추적 아이디어</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/gca_graph.gif" alt="DAG 계보 그래프 데모"/><br/><sub>DAG 계보 그래프 데모</sub></td>
-<td width="50%"><img src="assets/projects/gca_cover.jpg" alt="발표 표지"/><br/><sub>발표 표지</sub></td>
+<td width="50%"><img src="assets/projects/gca_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
+<td width="50%"><img src="assets/projects/gca_main.jpg" alt="계보 그래프 — 신뢰 등급별 노드"/><br/><sub>계보 그래프 — 신뢰 등급별 노드</sub></td>
 </tr></table>
 
 
@@ -145,8 +145,8 @@
 <summary><b>🎓 설스터디 (SeolStudy)</b> — 멘토·멘티 학습 관리 플랫폼 🏆</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/seol_timer.jpg" alt="멘티 — 타이머 · 과제 제출"/><br/><sub>멘티 — 타이머 · 과제 제출</sub></td>
-<td width="50%"><img src="assets/projects/seol_feedback.jpg" alt="멘토 피드백 푸시 알림"/><br/><sub>멘토 피드백 푸시 알림</sub></td>
+<td width="50%"><img src="assets/projects/seol_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
+<td width="50%"><img src="assets/projects/seol_main.jpg" alt="멘티 — 타이머 · 과제 제출"/><br/><sub>멘티 — 타이머 · 과제 제출</sub></td>
 </tr></table>
 
 
@@ -169,8 +169,8 @@
 <summary><b>🧭 진로온 (JinroOn)</b> — AI 기반 전공 적합도 탐색 플랫폼</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/jinro_main.jpg" alt="AI 전공 적합도 분석 중"/><br/><sub>AI 전공 적합도 분석 중</sub></td>
-<td width="50%"><img src="assets/projects/jinro_compare.jpg" alt="전공 적합도 비교"/><br/><sub>전공 적합도 비교</sub></td>
+<td width="50%"><img src="assets/projects/jinro_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
+<td width="50%"><img src="assets/projects/jinro_main.jpg" alt="전공 적합도 시뮬레이션"/><br/><sub>전공 적합도 시뮬레이션</sub></td>
 </tr></table>
 
 
@@ -193,8 +193,8 @@
 <summary><b>📖 온점 (Onjeom)</b> — AI 기반 문해력 향상 학습 플랫폼</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/onjeom_service.jpg" alt="서비스 화면"/><br/><sub>서비스 화면</sub></td>
-<td width="50%"><img src="assets/projects/onjeom_model.jpg" alt="모델 추론 · 파인튜닝 지표"/><br/><sub>모델 추론 · 파인튜닝 지표</sub></td>
+<td width="50%"><img src="assets/projects/onjeom_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
+<td width="50%"><img src="assets/projects/onjeom_main.jpg" alt="오늘의 학습 — 지문 문제 풀이"/><br/><sub>오늘의 학습 — 지문 문제 풀이</sub></td>
 </tr></table>
 
 
@@ -218,8 +218,7 @@
 <summary><b>🎯 NowWhat</b> — 할 일 우선순위 자동 추천 서비스</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/nowwhat_screens.jpg" alt="실제 동작 화면 구성"/><br/><sub>실제 동작 화면 구성</sub></td>
-<td width="50%"><img src="assets/projects/nowwhat_score.jpg" alt="우선순위 점수 계산 방식"/><br/><sub>우선순위 점수 계산 방식</sub></td>
+<td width="50%"><img src="assets/projects/nowwhat_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 </tr></table>
 
 
@@ -241,8 +240,7 @@
 <summary><b>🔔 공지캐치 (Notice-Catch)</b> — 대학생 맞춤 통합 공지 알리미 앱</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/nc_arch.jpg" alt="시스템 아키텍처"/><br/><sub>시스템 아키텍처</sub></td>
-<td width="50%"><img src="assets/projects/nc_booth.jpg" alt="UMC 데모데이 부스"/><br/><sub>UMC 데모데이 부스</sub></td>
+<td width="50%"><img src="assets/projects/nc_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 </tr></table>
 
 
@@ -263,8 +261,8 @@
 <summary><b>🏙️ 타운시그널 (TownSignal)</b> — 청년 예비창업자 창업 입지 역산 추천 서비스 &nbsp;🚧</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/ts_map.jpg" alt="자치구별 평균 상가 임대료"/><br/><sub>자치구별 평균 상가 임대료</sub></td>
-<td width="50%"><img src="assets/projects/ts_arch.jpg" alt="시스템 구조 (배치 미리 계산 · 요청 시 조회)"/><br/><sub>시스템 구조 (배치 미리 계산 · 요청 시 조회)</sub></td>
+<td width="50%"><img src="assets/projects/ts_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
+<td width="50%"><img src="assets/projects/ts_main.jpg" alt="대시보드 — 조건으로 입지 추천"/><br/><sub>대시보드 — 조건으로 입지 추천</sub></td>
 </tr></table>
 
 
@@ -286,8 +284,8 @@
 <summary><b>📊 돈독 (Don-Ddok)</b> — 수출 경기 충격의 법인 여신 전이 분석</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/dd_industry.jpg" alt="대시보드 — 업종별 현황"/><br/><sub>대시보드 — 업종별 현황</sub></td>
-<td width="50%"><img src="assets/projects/dd_region.jpg" alt="대시보드 — 지역 성장국면"/><br/><sub>대시보드 — 지역 성장국면</sub></td>
+<td width="50%"><img src="assets/projects/dd_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
+<td width="50%"><img src="assets/projects/dd_main.jpg" alt="대시보드 — 업종별 현황"/><br/><sub>대시보드 — 업종별 현황</sub></td>
 </tr></table>
 
 
@@ -312,8 +310,8 @@
 <summary><b>💠 One Action</b> — AI 기반 멀티 클라우드 배포·운영 플랫폼 🏆</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/oa_envs.jpg" alt="같은 커밋을 서울 AWS · 도쿄 GCP · 부산 로컬에"/><br/><sub>같은 커밋을 서울 AWS · 도쿄 GCP · 부산 로컬에</sub></td>
-<td width="50%"><img src="assets/projects/oa_abort.jpg" alt="에러율 초과 시 카나리 자동 중단"/><br/><sub>에러율 초과 시 카나리 자동 중단</sub></td>
+<td width="50%"><img src="assets/projects/oa_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
+<td width="50%"><img src="assets/projects/oa_main.jpg" alt="세 환경 동시 배포 현황"/><br/><sub>세 환경 동시 배포 현황</sub></td>
 </tr></table>
 
 
