@@ -44,7 +44,7 @@
 | 2026.09~ | 🏙️ 타운시그널 🚧 | 영남대 AI서비스프로젝트 | CTO · AI · 배포 |
 | 2026.09~10 | 📊 돈독 | iM뱅크 아카데미 9기 | Data Analysis · Dashboard |
 | 2026.10 | 💠 One Action 🏆 | SoftBank Hackathon 2026 | CI/CD · Deployment |
-| 2026.10~11 | ☀️ 눈치 🚧 | iM뱅크 아카데미 9기 | PM · AI · Fullstack |
+| 2026.10~11 | ☀️ 눈치 | iM뱅크 아카데미 9기 | PM · AI · Fullstack |
 
 <sub>▼ 프로젝트 이름을 누르면 상세 내용이 펼쳐집니다.</sub>
 
@@ -263,7 +263,7 @@
 </details>
 
 <details>
-<summary><b>☀️ 눈치 (Nunchi)</b> — 빛 변화에 대비하는 주행 안내 · 태양광 눈부심 분류 모델 + 운전 시뮬레이터 &nbsp;🚧</summary>
+<summary><b>☀️ 눈치 (Nunchi)</b> — 빛 변화에 대비하는 주행 안내 · 태양광 눈부심 분류 모델 + 운전 시뮬레이터</summary>
 
 > 해가 정면에 낮게 들어오거나 터널을 드나들 때 앞이 잘 안 보이는 순간을 데이터로 먼저 알아채고, 눈부심이 적은 길을 고르거나 미리 대비하게 돕는 머신러닝 프로젝트 · 4인 팀 · 담당: PM, 태양광 눈부심 분류 모델, 운전 시뮬레이터(FE · BE)
 
@@ -273,7 +273,7 @@
 - **운영 API** — FastAPI · Render에 선정 모델 주소(`/predict/glare/photo-g`) 배포, 모델 묶음 SHA-256 고정·CI 자동 검증
 - **운전 시뮬레이터 「눈치 드라이브」** — 대구 달구벌대로·신천대로(지하차도 12곳)를 실제 도로·건물 데이터로 3D 재현, 날짜·시각별 해 위치와 건물 가림 계산
 - 시뮬레이터 화면·휴대폰 카메라(GPS · 나침반)를 선정 모델로 실시간 판정, 대표 코스는 100 m마다 미리 판정해 주행 화면에 안내 · 도로변 전광판 · 지하차도 밝기 전환 체험
-- PM — 노션 문서 체계 · GitHub 조직 · 보고서/발표 시나리오 구성
+- PM — 노션 문서 체계 · GitHub 조직 · 보고서 · 발표 PPT(65장)와 30분 발표 스크립트 제작, 최종 발표 완료
 
 **Stack** · Python · scikit-learn · OpenCV · pvlib · FastAPI · Render · React · TypeScript · three.js · zustand · Vercel
 
