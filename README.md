@@ -51,6 +51,12 @@
 <details>
 <summary><b>📚 Let's Study Now</b> — 실시간 스터디 그룹 매칭 서비스</summary>
 
+<table><tr>
+<td width="50%"><img src="assets/projects/lsn_main.jpg" alt="메인 화면"/><br/><sub>메인 화면</sub></td>
+<td width="50%"><img src="assets/projects/lsn_open.jpg" alt="오픈 스터디 목록 · 바로 참여"/><br/><sub>오픈 스터디 목록 · 바로 참여</sub></td>
+</tr></table>
+
+
 > 즉석으로 스터디 그룹을 매칭해 주는 웹 서비스
 
 - 회원가입·로그인·프로필 관리 UI 개발
@@ -69,6 +75,12 @@
 <details>
 <summary><b>📋 통합 협업 게시판</b> — 게시판 · 칸반 · AI 작성 도우미 협업 툴</summary>
 
+<table><tr>
+<td width="50%"><img src="assets/projects/board_demo.gif" alt="칸반 드래그 앤 드롭 시연"/><br/><sub>칸반 드래그 앤 드롭 시연</sub></td>
+<td width="50%"><img src="assets/projects/board_ai.jpg" alt="AI 작성 도우미"/><br/><sub>AI 작성 도우미</sub></td>
+</tr></table>
+
+
 > 게시판, 칸반 보드, AI 작성 도우미를 하나로 합친 협업 툴 (1인 풀스택)
 
 - Spring Boot REST API 설계·구현, JWT 인증/인가
@@ -85,6 +97,12 @@
 
 <details>
 <summary><b>🛡️ 낙상 지킴이 (AudioFallCare)</b> — 소리 기반 AI 낙상 감지 시스템</summary>
+
+<table><tr>
+<td width="50%"><img src="assets/projects/afc_system.jpg" alt="시스템 구성 (IoT → AI → 백엔드 → 보호자)"/><br/><sub>시스템 구성 (IoT → AI → 백엔드 → 보호자)</sub></td>
+<td width="50%"><img src="assets/projects/afc_alert.jpg" alt="보호자-피보호자 연동 · 낙상 알림"/><br/><sub>보호자-피보호자 연동 · 낙상 알림</sub></td>
+</tr></table>
+
 
 > 마이크 소리를 실시간으로 분석해 낙상을 감지하고 보호자에게 바로 알리는 시스템
 
@@ -104,6 +122,12 @@
 <details>
 <summary><b>💡 AI 코드 계보 추적 시스템</b> — AI 생성 코드 신뢰 추적 아이디어</summary>
 
+<table><tr>
+<td width="50%"><img src="assets/projects/gca_graph.gif" alt="DAG 계보 그래프 데모"/><br/><sub>DAG 계보 그래프 데모</sub></td>
+<td width="50%"><img src="assets/projects/gca_cover.jpg" alt="발표 표지"/><br/><sub>발표 표지</sub></td>
+</tr></table>
+
+
 > 바이브 코딩에서 AI가 만든 코드의 출처·맥락·신뢰도를 추적하는 시스템 제안
 
 - 생성 맥락 서명(GCA), 세션 단위 계보 추적, 위험 전파 경로 분석 설계
@@ -119,6 +143,12 @@
 
 <details>
 <summary><b>🎓 설스터디 (SeolStudy)</b> — 멘토·멘티 학습 관리 플랫폼 🏆</summary>
+
+<table><tr>
+<td width="50%"><img src="assets/projects/seol_timer.jpg" alt="멘티 — 타이머 · 과제 제출"/><br/><sub>멘티 — 타이머 · 과제 제출</sub></td>
+<td width="50%"><img src="assets/projects/seol_feedback.jpg" alt="멘토 피드백 푸시 알림"/><br/><sub>멘토 피드백 푸시 알림</sub></td>
+</tr></table>
+
 
 > 멘토가 멘티의 학습 플래너를 관리하고 피드백을 주는 플랫폼 · 10일간 백엔드 2인이 14개 도메인, 60개 이상 API 개발
 > 2026 블레이버스 MVP 개발 해커톤 · **베스트 팀워크상**
@@ -138,6 +168,12 @@
 <details>
 <summary><b>🧭 진로온 (JinroOn)</b> — AI 기반 전공 적합도 탐색 플랫폼</summary>
 
+<table><tr>
+<td width="50%"><img src="assets/projects/jinro_main.jpg" alt="AI 전공 적합도 분석 중"/><br/><sub>AI 전공 적합도 분석 중</sub></td>
+<td width="50%"><img src="assets/projects/jinro_compare.jpg" alt="전공 적합도 비교"/><br/><sub>전공 적합도 비교</sub></td>
+</tr></table>
+
+
 > 학과 데이터와 취업 트렌드를 AI로 분석해 맞는 전공을 추천하는 플랫폼
 
 - 프론트엔드 메인(코드 약 78%) — 인증·전공진단·역량평가·AI 상담·결과 대시보드 등 10개 도메인 화면
@@ -155,6 +191,12 @@
 
 <details>
 <summary><b>📖 온점 (Onjeom)</b> — AI 기반 문해력 향상 학습 플랫폼</summary>
+
+<table><tr>
+<td width="50%"><img src="assets/projects/onjeom_service.jpg" alt="서비스 화면"/><br/><sub>서비스 화면</sub></td>
+<td width="50%"><img src="assets/projects/onjeom_model.jpg" alt="모델 추론 · 파인튜닝 지표"/><br/><sub>모델 추론 · 파인튜닝 지표</sub></td>
+</tr></table>
+
 
 > 국어 지문으로 문제를 풀고, AI 튜터가 어휘력·독해력을 진단해 맞춤 학습을 제공 · PR 60건 이상 기여
 
@@ -175,6 +217,12 @@
 <details>
 <summary><b>🎯 NowWhat</b> — 할 일 우선순위 자동 추천 서비스</summary>
 
+<table><tr>
+<td width="50%"><img src="assets/projects/nowwhat_screens.jpg" alt="실제 동작 화면 구성"/><br/><sub>실제 동작 화면 구성</sub></td>
+<td width="50%"><img src="assets/projects/nowwhat_score.jpg" alt="우선순위 점수 계산 방식"/><br/><sub>우선순위 점수 계산 방식</sub></td>
+</tr></table>
+
+
 > 마감·중요도·소요시간을 점수로 합산해 할 일을 자동 정렬하는 투두 서비스 (1인 풀스택)
 
 - 마감 임박도(지수 감쇠)·중요도·소요시간 가중합 스코어링 엔진
@@ -192,6 +240,12 @@
 <details>
 <summary><b>🔔 공지캐치 (Notice-Catch)</b> — 대학생 맞춤 통합 공지 알리미 앱</summary>
 
+<table><tr>
+<td width="50%"><img src="assets/projects/nc_arch.jpg" alt="시스템 아키텍처"/><br/><sub>시스템 아키텍처</sub></td>
+<td width="50%"><img src="assets/projects/nc_booth.jpg" alt="UMC 데모데이 부스"/><br/><sub>UMC 데모데이 부스</sub></td>
+</tr></table>
+
+
 > 대학 공지를 모아 맞춤 피드와 알림을 주는 안드로이드 앱의 백엔드 · PR 40건 이상 기여
 
 - 마이페이지·알림 설정·관심 키워드·스펙 로그 API 설계·구현
@@ -207,6 +261,12 @@
 
 <details>
 <summary><b>🏙️ 타운시그널 (TownSignal)</b> — 청년 예비창업자 창업 입지 역산 추천 서비스 &nbsp;🚧</summary>
+
+<table><tr>
+<td width="50%"><img src="assets/projects/ts_map.jpg" alt="자치구별 평균 상가 임대료"/><br/><sub>자치구별 평균 상가 임대료</sub></td>
+<td width="50%"><img src="assets/projects/ts_arch.jpg" alt="시스템 구조 (배치 미리 계산 · 요청 시 조회)"/><br/><sub>시스템 구조 (배치 미리 계산 · 요청 시 조회)</sub></td>
+</tr></table>
+
 
 > 조건을 입력하면 받을 수 있는 창업 지원금을 예산으로 환산하고, 그 예산으로 유리한 서울 행정동을 거꾸로 추천
 
@@ -224,6 +284,12 @@
 
 <details>
 <summary><b>📊 돈독 (Don-Ddok)</b> — 수출 경기 충격의 법인 여신 전이 분석</summary>
+
+<table><tr>
+<td width="50%"><img src="assets/projects/dd_industry.jpg" alt="대시보드 — 업종별 현황"/><br/><sub>대시보드 — 업종별 현황</sub></td>
+<td width="50%"><img src="assets/projects/dd_region.jpg" alt="대시보드 — 지역 성장국면"/><br/><sub>대시보드 — 지역 성장국면</sub></td>
+</tr></table>
+
 
 > 지역 수출이 나빠지면 기업의 은행 거래(대출·예금)가 언제, 어떻게 달라지는지 통계로 검증 · 5인 팀 · 담당: 여신·업종 분석, 대시보드
 > **팀 결과**: 수출 경기와 함께 움직인 계정은 요구불예금뿐 (수출 증감률 10%p 하락 시 6개월 뒤 비교 기업보다 약 3.6% 낮음). 나머지 계정은 확인하지 못함
@@ -244,6 +310,12 @@
 
 <details>
 <summary><b>💠 One Action</b> — AI 기반 멀티 클라우드 배포·운영 플랫폼 🏆</summary>
+
+<table><tr>
+<td width="50%"><img src="assets/projects/oa_envs.jpg" alt="같은 커밋을 서울 AWS · 도쿄 GCP · 부산 로컬에"/><br/><sub>같은 커밋을 서울 AWS · 도쿄 GCP · 부산 로컬에</sub></td>
+<td width="50%"><img src="assets/projects/oa_abort.jpg" alt="에러율 초과 시 카나리 자동 중단"/><br/><sub>에러율 초과 시 카나리 자동 중단</sub></td>
+</tr></table>
+
 
 > 로컬에서 개발한 웹 앱을 AI가 분석·검토해 로컬·AWS·GCP 어디로든 클릭 한 번으로 배포하는 플랫폼 · 4인 팀 · 담당: CI/CD 파이프라인과 배포 자동화 · PR 70건 이상 기여
 > SoftBank 주최 선발 직결형 해커톤 (주제: One Action, Infinite Clouds) · **최우수상**
