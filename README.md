@@ -52,10 +52,9 @@
 <summary><b>📚 Let's Study Now</b> — 실시간 스터디 그룹 매칭 서비스</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/lsn_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 <td width="50%"><img src="assets/projects/lsn_main.jpg" alt="오픈 스터디 — 바로 참여할 방 찾기"/><br/><sub>오픈 스터디 — 바로 참여할 방 찾기</sub></td>
+<td width="50%"><img src="assets/projects/lsn_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 </tr></table>
-
 
 > 즉석으로 스터디 그룹을 매칭해 주는 웹 서비스
 
@@ -76,10 +75,9 @@
 <summary><b>📋 통합 협업 게시판</b> — 게시판 · 칸반 · AI 작성 도우미 협업 툴</summary>
 
 <table><tr>
+<td width="50%"><img src="assets/projects/board_main.gif" alt="게시판 동작 시연"/><br/><sub>게시판 동작 시연</sub></td>
 <td width="50%"><img src="assets/projects/board_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
-<td width="50%"><img src="assets/projects/board_main.jpg" alt="게시판 메인"/><br/><sub>게시판 메인</sub></td>
 </tr></table>
-
 
 > 게시판, 칸반 보드, AI 작성 도우미를 하나로 합친 협업 툴 (1인 풀스택)
 
@@ -99,10 +97,9 @@
 <summary><b>🛡️ 낙상 지킴이 (AudioFallCare)</b> — 소리 기반 AI 낙상 감지 시스템</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/afc_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 <td width="50%"><img src="assets/projects/afc_main.jpg" alt="보호자 앱 — 소리 감지 기록"/><br/><sub>보호자 앱 — 소리 감지 기록</sub></td>
+<td width="50%"><img src="assets/projects/afc_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 </tr></table>
-
 
 > 마이크 소리를 실시간으로 분석해 낙상을 감지하고 보호자에게 바로 알리는 시스템
 
@@ -123,10 +120,9 @@
 <summary><b>💡 AI 코드 계보 추적 시스템</b> — AI 생성 코드 신뢰 추적 아이디어</summary>
 
 <table><tr>
+<td width="50%"><img src="assets/projects/gca_main.gif" alt="계보 그래프 데모"/><br/><sub>계보 그래프 데모</sub></td>
 <td width="50%"><img src="assets/projects/gca_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
-<td width="50%"><img src="assets/projects/gca_main.jpg" alt="계보 그래프 — 신뢰 등급별 노드"/><br/><sub>계보 그래프 — 신뢰 등급별 노드</sub></td>
 </tr></table>
-
 
 > 바이브 코딩에서 AI가 만든 코드의 출처·맥락·신뢰도를 추적하는 시스템 제안
 
@@ -145,10 +141,9 @@
 <summary><b>🎓 설스터디 (SeolStudy)</b> — 멘토·멘티 학습 관리 플랫폼 🏆</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/seol_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 <td width="50%"><img src="assets/projects/seol_main.jpg" alt="멘티 — 타이머 · 과제 제출"/><br/><sub>멘티 — 타이머 · 과제 제출</sub></td>
+<td width="50%"><img src="assets/projects/seol_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 </tr></table>
-
 
 > 멘토가 멘티의 학습 플래너를 관리하고 피드백을 주는 플랫폼 · 10일간 백엔드 2인이 14개 도메인, 60개 이상 API 개발
 > 2026 블레이버스 MVP 개발 해커톤 · **베스트 팀워크상**
@@ -169,10 +164,9 @@
 <summary><b>🧭 진로온 (JinroOn)</b> — AI 기반 전공 적합도 탐색 플랫폼</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/jinro_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 <td width="50%"><img src="assets/projects/jinro_main.jpg" alt="전공 적합도 시뮬레이션"/><br/><sub>전공 적합도 시뮬레이션</sub></td>
+<td width="50%"><img src="assets/projects/jinro_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 </tr></table>
-
 
 > 학과 데이터와 취업 트렌드를 AI로 분석해 맞는 전공을 추천하는 플랫폼
 
@@ -193,10 +187,9 @@
 <summary><b>📖 온점 (Onjeom)</b> — AI 기반 문해력 향상 학습 플랫폼</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/onjeom_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 <td width="50%"><img src="assets/projects/onjeom_main.jpg" alt="오늘의 학습 — 지문 문제 풀이"/><br/><sub>오늘의 학습 — 지문 문제 풀이</sub></td>
+<td width="50%"><img src="assets/projects/onjeom_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 </tr></table>
-
 
 > 국어 지문으로 문제를 풀고, AI 튜터가 어휘력·독해력을 진단해 맞춤 학습을 제공 · PR 60건 이상 기여
 
@@ -218,9 +211,9 @@
 <summary><b>🎯 NowWhat</b> — 할 일 우선순위 자동 추천 서비스</summary>
 
 <table><tr>
+<td width="50%"><img src="assets/projects/nowwhat_main.jpg" alt="화면 구성"/><br/><sub>화면 구성</sub></td>
 <td width="50%"><img src="assets/projects/nowwhat_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 </tr></table>
-
 
 > 마감·중요도·소요시간을 점수로 합산해 할 일을 자동 정렬하는 투두 서비스 (1인 풀스택)
 
@@ -240,9 +233,9 @@
 <summary><b>🔔 공지캐치 (Notice-Catch)</b> — 대학생 맞춤 통합 공지 알리미 앱</summary>
 
 <table><tr>
+<td width="50%"><img src="assets/projects/nc_main.jpg" alt="UMC 데모데이 부스"/><br/><sub>UMC 데모데이 부스</sub></td>
 <td width="50%"><img src="assets/projects/nc_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 </tr></table>
-
 
 > 대학 공지를 모아 맞춤 피드와 알림을 주는 안드로이드 앱의 백엔드 · PR 40건 이상 기여
 
@@ -261,10 +254,9 @@
 <summary><b>🏙️ 타운시그널 (TownSignal)</b> — 청년 예비창업자 창업 입지 역산 추천 서비스 &nbsp;🚧</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/ts_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 <td width="50%"><img src="assets/projects/ts_main.jpg" alt="대시보드 — 조건으로 입지 추천"/><br/><sub>대시보드 — 조건으로 입지 추천</sub></td>
+<td width="50%"><img src="assets/projects/ts_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 </tr></table>
-
 
 > 조건을 입력하면 받을 수 있는 창업 지원금을 예산으로 환산하고, 그 예산으로 유리한 서울 행정동을 거꾸로 추천
 
@@ -284,10 +276,9 @@
 <summary><b>📊 돈독 (Don-Ddok)</b> — 수출 경기 충격의 법인 여신 전이 분석</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/dd_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 <td width="50%"><img src="assets/projects/dd_main.jpg" alt="대시보드 — 업종별 현황"/><br/><sub>대시보드 — 업종별 현황</sub></td>
+<td width="50%"><img src="assets/projects/dd_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 </tr></table>
-
 
 > 지역 수출이 나빠지면 기업의 은행 거래(대출·예금)가 언제, 어떻게 달라지는지 통계로 검증 · 5인 팀 · 담당: 여신·업종 분석, 대시보드
 > **팀 결과**: 수출 경기와 함께 움직인 계정은 요구불예금뿐 (수출 증감률 10%p 하락 시 6개월 뒤 비교 기업보다 약 3.6% 낮음). 나머지 계정은 확인하지 못함
@@ -310,10 +301,9 @@
 <summary><b>💠 One Action</b> — AI 기반 멀티 클라우드 배포·운영 플랫폼 🏆</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/oa_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 <td width="50%"><img src="assets/projects/oa_main.jpg" alt="세 환경 동시 배포 현황"/><br/><sub>세 환경 동시 배포 현황</sub></td>
+<td width="50%"><img src="assets/projects/oa_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 </tr></table>
-
 
 > 로컬에서 개발한 웹 앱을 AI가 분석·검토해 로컬·AWS·GCP 어디로든 클릭 한 번으로 배포하는 플랫폼 · 4인 팀 · 담당: CI/CD 파이프라인과 배포 자동화 · PR 70건 이상 기여
 > SoftBank 주최 선발 직결형 해커톤 (주제: One Action, Infinite Clouds) · **최우수상**
@@ -335,11 +325,9 @@
 <details>
 <summary><b>☀️ 눈치 (Nunchi)</b> — 빛 변화에 대비하는 주행 안내 · 태양광 눈부심 분류 모델 + 운전 시뮬레이터</summary>
 
-<img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/slides/cover.jpg" width="100%" alt="눈치 발표 표지"/>
-
 <table><tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_glare.jpg" alt="주행 중 정면 눈부심 안내"/><br/><sub>주행 중 정면 눈부심 판정 · 감속 안내</sub></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_route.jpg" alt="출발 전 경로 안내"/><br/><sub>출발 전 코스 미리 판정</sub></td>
+<td width="50%"><img src="assets/projects/nunchi_main.jpg" alt="운전 시뮬레이터 — 정면 눈부심 안내"/><br/><sub>운전 시뮬레이터 — 정면 눈부심 안내</sub></td>
+<td width="50%"><img src="assets/projects/nunchi_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 </tr></table>
 
 > 해가 정면에 낮게 들어오거나 터널을 드나들 때 앞이 잘 안 보이는 순간을 데이터로 먼저 알아채고, 눈부심이 적은 길을 고르거나 미리 대비하게 돕는 머신러닝 프로젝트 · 4인 팀 · 담당: PM, 태양광 눈부심 분류 모델, 운전 시뮬레이터(FE · BE)
