@@ -326,7 +326,7 @@
 <summary><b>☀️ 눈치 (Nunchi)</b> — 빛 변화에 대비하는 주행 안내 · 태양광 눈부심 분류 모델 + 운전 시뮬레이터</summary>
 
 <table><tr>
-<td width="50%"><img src="assets/projects/nunchi_main.jpg" alt="눈치 드라이브 — 정면 햇빛 눈부심 순간"/><br/><sub>눈치 드라이브 — 정면 햇빛 눈부심 순간</sub></td>
+<td width="50%"><img src="assets/projects/nunchi_main.gif" alt="눈치 드라이브 시연 — 정면 눈부심 판정 · 감속 안내"/><br/><sub>눈치 드라이브 시연 — 정면 눈부심 판정 · 감속 안내</sub></td>
 <td width="50%"><img src="assets/projects/nunchi_arch.jpg" alt="시스템 구조"/><br/><sub>시스템 구조</sub></td>
 </tr></table>
 
