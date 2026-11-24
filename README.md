@@ -390,9 +390,9 @@ AI 코딩 도구로 기능 구현과 문제 해결
 </details>
 
 <details>
-<summary><code>2026.07~11</code>　<b>LLM 모델 개발 Signature</b></summary>
+<summary><code>2026.07~11</code>　<b>LLM 모델 개발</b></summary>
 
-영남대 × 패스트캠퍼스 · 62시간<br/>
+영남대 × 패스트캠퍼스 · LLM 모델 개발 Signature · 62시간<br/>
 LLM 설계·사전학습·경량화
 
 </details>
@@ -406,7 +406,7 @@ LLM 설계·사전학습·경량화
 </details>
 
 <details>
-<summary><code>2026.08~2027.02</code>　<b>iM뱅크 아카데미 9기</b></summary>
+<summary><code>2026.08~27.02</code>　<b>iM뱅크 DBA 9기</b></summary>
 
 iM뱅크 · iM Digital Banker Academy 9기 · 972시간<br/>
 K-Digital Training 금융 데이터분석 전문가 양성 과정
