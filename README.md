@@ -365,47 +365,14 @@
 
 ## 📚 Education & Training
 
-<table>
-  <thead><tr><th nowrap>기간</th><th nowrap>기관</th><th nowrap>과정</th><th nowrap>내용</th></tr></thead>
-  <tbody>
-    <tr>
-      <td nowrap>2025.08</td>
-      <td nowrap>대구디지털혁신진흥원</td>
-      <td nowrap>대구 블록체인 밋업데이 (8h)</td>
-      <td nowrap>블록체인 기초·DApp 개발</td>
-    </tr>
-    <tr>
-      <td nowrap>2026.06~12</td>
-      <td nowrap title="영남대 첨단AI산업인재양성부트캠프">영남대 AI 부트캠프</td>
-      <td nowrap title="AI 서비스 중급과정 · 몰입형 45h · 온라인 90h · 교과형 9학점">AI 서비스 중급 (135h·9학점)</td>
-      <td nowrap title="몰입형에서 NowWhat, 교과형 AI서비스프로젝트에서 타운시그널 개발">NowWhat·타운시그널 개발</td>
-    </tr>
-    <tr>
-      <td nowrap>2026.07~11</td>
-      <td nowrap>영남대 × 패스트캠퍼스</td>
-      <td nowrap title="무적의 바이브코딩 성공 공식 (22h)">바이브코딩 성공 공식 (22h)</td>
-      <td nowrap>AI 도구로 기능 구현·문제 해결</td>
-    </tr>
-    <tr>
-      <td nowrap>2026.07~11</td>
-      <td nowrap>영남대 × 패스트캠퍼스</td>
-      <td nowrap>LLM 모델 개발 Signature (62h)</td>
-      <td nowrap>LLM 설계·사전학습·경량화</td>
-    </tr>
-    <tr>
-      <td nowrap>2026.07~11</td>
-      <td nowrap>영남대 × 패스트캠퍼스</td>
-      <td nowrap title="한국형 딥시크 개발자의 LLM의 모든 것 (15h)">한국형 딥시크·LLM (15h)</td>
-      <td nowrap>데이터 생성·RAG·파인튜닝·최적화</td>
-    </tr>
-    <tr>
-      <td nowrap>2026.08~2027.02</td>
-      <td nowrap>iM뱅크</td>
-      <td nowrap>iM Digital Banker Academy 9기 (972h)</td>
-      <td nowrap>금융 데이터분석 (K-Digital Training)</td>
-    </tr>
-  </tbody>
-</table>
+| 기간 | 기관 | 과정 | 내용 |
+|---|---|---|---|
+| 2025.08 | 대구디지털혁신진흥원 | 대구 블록체인 밋업데이 (8h) | 블록체인 개념, 간단한 DApp 개발 |
+| 2026.06~12 | 영남대 첨단AI산업인재양성부트캠프 | AI 서비스 중급과정 (몰입형 45h · 온라인 90h · 교과형 9학점) | 몰입형에서 NowWhat, 교과형 AI서비스프로젝트에서 타운시그널 개발 |
+| 2026.07~11 | 영남대 × 패스트캠퍼스 | 무적의 바이브코딩 성공 공식 (22h) | AI 코딩 도구로 기능 구현·문제 해결 |
+| 2026.07~11 | 영남대 × 패스트캠퍼스 | LLM 모델 개발 Signature (62h) | LLM 설계·사전학습·경량화 |
+| 2026.07~11 | 영남대 × 패스트캠퍼스 | 한국형 딥시크 개발자의 LLM의 모든 것 (15h) | 데이터 생성·RAG·파인튜닝·성능 최적화 |
+| 2026.08~2027.02 | iM뱅크 | iM Digital Banker Academy 9기 (972h) | 금융 데이터분석 전문가 양성 (K-Digital Training) |
 
 <br/>
 
