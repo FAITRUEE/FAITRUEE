@@ -11,6 +11,12 @@
 
 🎓 영남대학교 컴퓨터공학과 4학년 &nbsp;·&nbsp; 📍 대구
 
+<br/>
+
+<a href="https://faitruee-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%2013%EA%B0%9C%20%EB%B3%B4%EA%B8%B0-2b6cb0?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117" alt="Portfolio" /></a>
+&nbsp;
+<a href="https://faitruee.github.io/ai-workflow/"><img src="https://img.shields.io/badge/AI%20Workflow-Claude%20Code%20%EC%8A%A4%ED%82%AC%2012%EC%A2%85-58a6ff?style=for-the-badge&logo=anthropic&logoColor=white&labelColor=0d1117" alt="AI Workflow" /></a>
+
 </div>
 
 <br/>
